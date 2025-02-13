@@ -1,5 +1,5 @@
 # LLM Releated
-## 特征工程(Prompt Engineering)
+## 特征工程(PE)
 1. Fu, M., Tantithamthavorn, C., Nguyen, V., and Le, T. Chatgpt for vulnerability detection, classification, and repair:
 How far are we? APSEC (2023)
 2. Khare, A., Dutta, S., Li, Z., Solko-Breslin, A., Alur, R., and Naik, M. Understanding the effectiveness of large
@@ -18,13 +18,12 @@ arXiv:2407.16235 (2024).
 8.  Zhou, X., Zhang, T., and Lo, D. Large language model for vulnerability detection: Emerging results and future
 directions. ICSE NIER track (2024).
 
-## 微调技术(Fine-tuning)
-## RAG
+## 微调技术(FT)
+## Retrieval-augmented(RAG)
 
 
 # codeQL Releated
-- 0.[codeql](https://codeql.github.com/docs/)
-## 2024
+- 0. [codeql](https://codeql.github.com/docs/)
 - 1. LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
 - 2. [How Well Do Large Language Models Serve as End-to-End Secure
 Code Producers?](https://arxiv.org/pdf/2408.10495) 
