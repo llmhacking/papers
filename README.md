@@ -1,4 +1,6 @@
 # LLM Releated
+## 0. study
+1. https://arxiv.org/pdf/2404.02525
 ## 1. prompt engineering(pe)
 1. Fu, M., Tantithamthavorn, C., Nguyen, V., and Le, T. Chatgpt for vulnerability detection, classification, and repair:
 How far are we? APSEC (2023)
@@ -20,7 +22,6 @@ directions. ICSE NIER track (2024).
 
 ## 2. fine-tuning(ft)
 ## 3. retrieval-augmented generation(rag)
-
 
 # codeQL Releated
 - 0. [codeql](https://codeql.github.com/docs/)
