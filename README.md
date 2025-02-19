@@ -1,4 +1,4 @@
-# LLM Releated
+# LLM for Vulnerability Detection Releated Papers
 ## 0. study
 - 1. https://arxiv.org/pdf/2404.02525
 ## 1. prompt engineering(pe)
@@ -56,14 +56,17 @@ subtle semantic representation learning and explanation. In Proceedings of the 3
 - ft28. Chen, Y., Ding, Z., Alowain, L., Chen, X., and Wagner, D. A. Diversevul: A new vulnerable source code dataset for deep learning based vulnerability detection. In Proceedings of the 26th International Symposium on Research in Attacks, Intrusions and Defenses, RAID 2023, Hong Kong, China, October 16-18, 2023 (2023), ACM, pp. 654–668.
 - ft29. Li, Z., Wang, N., Zou, D., Li, Y., Zhang, R., Xu, S., Zhang, C., and Jin, H. On the effectiveness of functionlevel vulnerability detectors for inter-procedural vulnerabilities. In Proceedings of the 46th IEEE/ACM International Conference on Software Engineering, ICSE 2024, Lisbon, Portugal, April 14-20, 2024 (2024), ACM, pp. 157:1–157:12.
 - ft30. Croft, R., Babar, M. A., and Kholoosi, M. M. Data quality for software vulnerability datasets. In 45th IEEE/ACM International Conference on Software Engineering, ICSE 2023, Melbourne, Australia, May 14-20, 2023 (2023), IEEE, pp. 121–133.
-- ft31. Le, T. H. M., Du, X., and Babar, M. A. Are latent vulnerabilities hidden gems for software vulnerability prediction?
-an empirical study. In 21st IEEE/ACM International Conference on Mining Software Repositories, MSR 2024, Lisbon, Portugal, April 15-16, 2024 (2024), D. Spinellis, A. Bacchelli, and E. Constantinou, Eds., ACM, pp. 716–727.
+- ft31. Le, T. H. M., Du, X., and Babar, M. A. Are latent vulnerabilities hidden gems for software vulnerability prediction? an empirical study. In 21st IEEE/ACM International Conference on Mining Software Repositories, MSR 2024, Lisbon, Portugal, April 15-16, 2024 (2024), D. Spinellis, A. Bacchelli, and E. Constantinou, Eds., ACM, pp. 716–727.
 - ft32. Zhou, X., Tran, D.-M., Le-Cong, T., Zhang, T., Irsan, I. C., Sumarlin, J., Le, B., and Lo, D. Comparison of static application security testing tools and large language models for repo-level vulnerability detection. arXiv preprint arXiv:2407.16235 (2024).
 - ft33. Shestov, A., Cheshkov, A., Levichev, R., Mussabayev, R., Zadorozhny, P., Maslov, E., Vadim, C., and Bulychev, E. Finetuning large language models for vulnerability detection. CoRR abs/2401.17010 (2024).
 
 ## 3. retrieval-augmented generation(rag)
+- rag1. Liu, Z., Liao, Q., Gu, W., and Gao, C. Software vulnerability detection with GPT and in-context learning. In 8th International Conference on Data Science in Cyberspace, DSC 2023, Hefei, China, August 18-20, 2023 (2023), IEEE, pp. 229–236.
+- rag2. Zhou, X., Zhang, T., and Lo, D. Large language model for vulnerability detection: Emerging results and future directions. ICSE NIER track (2024).
+- rag3. Du, X., Zheng, G., Wang, K., Feng, J., Deng, W., Liu, M., Chen, B., Peng, X., Ma, T., and Lou, Y. Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level RAG. CoRR abs/2406.11147 (2024).
+- rag4. Wen, X., Wang, X., Chen, Y., Hu, R., Lo, D., and Gao, C. Vuleval: Towards repository-level evaluation of software vulnerability detection. CoRR abs/2404.15596 (2024).
 
-# codeQL Releated
+## 4. others
 - 0. [codeql](https://codeql.github.com/docs/)
 - 1. LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
 - 2. [How Well Do Large Language Models Serve as End-to-End Secure
