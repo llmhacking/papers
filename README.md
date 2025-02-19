@@ -67,7 +67,6 @@ subtle semantic representation learning and explanation. In Proceedings of the 3
 - rag4. Wen, X., Wang, X., Chen, Y., Hu, R., Lo, D., and Gao, C. Vuleval: Towards repository-level evaluation of software vulnerability detection. CoRR abs/2404.15596 (2024).
 
 ## 4. others
-- 0. [codeql](https://codeql.github.com/docs/)
-- 1. LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
-- 2. [How Well Do Large Language Models Serve as End-to-End Secure
+- o1. LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
+- o2. [How Well Do Large Language Models Serve as End-to-End Secure
 Code Producers?](https://arxiv.org/pdf/2408.10495) 
