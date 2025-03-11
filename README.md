@@ -66,9 +66,13 @@ subtle semantic representation learning and explanation. In Proceedings of the 3
 - rag3. Du, X., Zheng, G., Wang, K., Feng, J., Deng, W., Liu, M., Chen, B., Peng, X., Ma, T., and Lou, Y. Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level RAG. CoRR abs/2406.11147 (2024).
 - rag4. Wen, X., Wang, X., Chen, Y., Hu, R., Lo, D., and Gao, C. Vuleval: Towards repository-level evaluation of software vulnerability detection. CoRR abs/2404.15596 (2024).
 
-## 4. others
+## 4. Evaluation
+- ev1. [LLM4Vuln: A Unified Evaluation Framework for Decoupling and
+Enhancing LLMs’ Vulnerability Reasoning](https://arxiv.org/pdf/2401.16185)
+- ev2. [LSAST: Enhancing Cybersecurity through LLM-supported Static Application Security Testing
+](https://arxiv.org/html/2409.15735v2)
+
+## 5. others
 - o1. LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
 - o2. [How Well Do Large Language Models Serve as End-to-End Secure
 Code Producers?](https://arxiv.org/pdf/2408.10495) 
-- o3. https://arxiv.org/pdf/2401.16185
-- o4. https://arxiv.org/html/2409.15735v2
