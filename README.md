@@ -70,3 +70,5 @@ subtle semantic representation learning and explanation. In Proceedings of the 3
 - o1. LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
 - o2. [How Well Do Large Language Models Serve as End-to-End Secure
 Code Producers?](https://arxiv.org/pdf/2408.10495) 
+- o3. https://arxiv.org/pdf/2401.16185
+- o4. https://arxiv.org/html/2409.15735v2
