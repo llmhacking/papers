@@ -1,4 +1,4 @@
-# LLM for Vulnerability Detection Releated Papers
+# LLM for Vulnerability Detection 
 ## 0. study
 - 1. https://arxiv.org/pdf/2404.02525
 ## 1. prompt engineering(pe)
@@ -77,3 +77,7 @@ Enhancing LLMs’ Vulnerability Reasoning](https://arxiv.org/pdf/2401.16185)
 - o1. LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
 - o2. [How Well Do Large Language Models Serve as End-to-End Secure
 Code Producers?](https://arxiv.org/pdf/2408.10495) 
+
+# LLM for Code Generation
+- g1. [Improving LLM Code Generation with Grammar Augmentation
+](https://arxiv.org/html/2403.01632v1)
