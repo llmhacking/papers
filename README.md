@@ -81,3 +81,5 @@ Code Producers?](https://arxiv.org/pdf/2408.10495)
 # LLM for Code Generation
 - g1. [Improving LLM Code Generation with Grammar Augmentation
 ](https://arxiv.org/html/2403.01632v1)
+- g2. [A Survey on Large Language Models for Code Generation
+](https://arxiv.org/pdf/2406.00515)
