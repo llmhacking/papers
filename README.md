@@ -83,3 +83,7 @@ Code Producers?](https://arxiv.org/pdf/2408.10495)
 ](https://arxiv.org/html/2403.01632v1)
 - g2. [A Survey on Large Language Models for Code Generation
 ](https://arxiv.org/pdf/2406.00515)
+
+## LLm for Code Understanding
+- u1. [Testing the Effect of Code Documentation on Large Language Model Code
+Understanding](https://arxiv.org/pdf/2404.03114)
