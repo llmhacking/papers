@@ -88,3 +88,5 @@ Code Producers?](https://arxiv.org/pdf/2408.10495)
 - u1. [Testing the Effect of Code Documentation on Large Language Model Code
 Understanding](https://arxiv.org/pdf/2404.03114)
 - u2. [Using an LLM to Help With Code Understanding](https://arxiv.org/html/2307.08177v3)
+- u3. [Automatic Semantic Augmentation of Language Model Prompts
+(for Code Summarization)](https://arxiv.org/pdf/2304.06815)
