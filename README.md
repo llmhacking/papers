@@ -1,92 +1,180 @@
-# LLM for Vulnerability Detection 
-## 0. study
-- 1. https://arxiv.org/pdf/2404.02525
-## 1. prompt engineering(pe)
-- pe1. Fu, M., Tantithamthavorn, C., Nguyen, V., and Le, T. Chatgpt for vulnerability detection, classification, and repair: How far are we? APSEC (2023)
-- pe2. Khare, A., Dutta, S., Li, Z., Solko-Breslin, A., Alur, R., and Naik, M. Understanding the effectiveness of large language models in detecting security vulnerabilities. arXiv preprint arXiv: 2311.16169 (2023).
-- pe3. Ni, C., Shen, L., Xu, X., Yin, X., and Wang, S. Learning-based models for vulnerability detection: An extensive study. arXiv preprint arXiv:2408.07526 (2024).
-- pe4. Purba, M. D., Ghosh, A., Radford, B. J., and Chu, B. Software vulnerability detection using large language models.
-In 34th IEEE International Symposium on Software Reliability Engineering, ISSRE 2023 - Workshops, Florence, Italy, October 9-12, 2023 (2023), IEEE, pp. 112–119.
-- pe5. Yin, X. Pros and cons! evaluating chatgpt on software vulnerability. CoRR abs/2404.03994 (2024).
-- pe6. Zhang, C., Liu, H., Zeng, J., Yang, K., Li, Y., and Li, H. Prompt-enhanced software vulnerability detection using chatgpt. arXiv preprint arXiv: 2308.12697 (2023)
-- pe7. Zhou, X., Tran, D.-M., Le-Cong, T., Zhang, T., Irsan, I. C., Sumarlin, J., Le, B., and Lo, D. Comparison of static application security testing tools and large language models for repo-level vulnerability detection. arXiv preprint arXiv:2407.16235 (2024).
-- pe8. Zhou, X., Zhang, T., and Lo, D. Large language model for vulnerability detection: Emerging results and future directions. ICSE NIER track (2024).
-- pe9. Wang, Chengpeng et al. “LLMDFA: Analyzing Dataflow in Code with Large Language Models.” Neural Information Processing Systems (2024).
+# LLM for Vulnerability Detection
 
-## 2. fine-tuning(ft)
-### Data-centric Innovations
-- ft1. Wen, X., Wang, X., Gao, C., Wang, S., Liu, Y., and Gu, Z. When less is enough: Positive and unlabeled learning model for vulnerability detection. In 38th IEEE/ACM International Conference on Automated Software Engineering,
-ASE 2023, Luxembourg, September 11-15, 2023 (2023), IEEE, pp. 345–357
-- ft2. Kuang, H., Yang, F., Zhang, L., Tang, G., and Yang, L. Leveraging user-defined identifiers for counterfactual data generation in source code vulnerability detection. In 23rd IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM 2023, Bogotá, Colombia, October 2-3, 2023 (2023), L. Moonen, C. D. Newman, and A. Gorla, Eds., IEEE, pp. 143–150.
-- ft3.  Ding, Y., Fu, Y., Ibrahim, O., Sitawarin, C., Chen, X., Alomair, B., Wagner, D. A., Ray, B., and Chen, Y. Vulnerability detection with code language models: How far are we? arXiv preprint arXiv: 2403.18624 (2024).
-- ft4. Yang, X., Wang, S., Li, Y., and Wang, S. Does data sampling improve deep learning-based vulnerability detection? yeas! and nays! In 45th IEEE/ACM International Conference on Software Engineering, ICSE 2023, Melbourne, Australia, May 14-20, 2023 (2023), IEEE, pp. 2287–2298.
+A curated collection of academic papers on using Large Language Models for software vulnerability detection, analysis, and remediation.
 
-### Combining with Program Analysis
-- ft5. Peng, T., Chen, S., Zhu, F., Tang, J., Liu, J., and Hu, X. Ptlvd:program slicing and transformer-based line-level vulnerability detection system. In 23rd IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM 2023, Bogotá, Colombia, October 2-3, 2023 (2023), L. Moonen, C. D. Newman, and A. Gorla, Eds., IEEE, pp. 162–173.
-- ft6. Zhang, J., Liu, Z., Hu, X., Xia, X., and Li, S. Vulnerability detection by learning from syntax-based execution paths of code. IEEE Trans. Software Eng. 49, 8 (2023), 4196–4212.
-- ft7. Wang, H., Tang, Z., Tan, S. H., Wang, J., Liu, Y., Fang, H., Xia, C., and Wang, Z. Combining structured static code information and dynamic symbolic traces for software vulnerability prediction. In Proceedings of the 46th International Conference on Software Engineering (2024), ACM.
-- ft8. Liu, Z., Tang, Z., Zhang, J., Xia, X., and Yang, X. Pre-training by predicting program dependencies for vulnerability analysis tasks. ICSE (2024).
-- ft9. Tran, H.-C., Tran, A.-D., and Le, K.-H. Detectvul: A statement-level code vulnerability detection for python. Future Generation Computer Systems (2024), 107504.
-- ft10. Weng, C., Qin, Y., Lin, B., Liu, P., and Chen, L. Matsvd: Boosting statement-level vulnerability detection via
-dependency-based attention. In Proceedings of the 15th Asia-Pacific Symposium on Internetware, Internetware 2024,Macau, SAR, China, July 24-26, 2024 (2024), H. Mei, J. Lv, A. Helal, X. Ma, S. Cheung, J. Zhang, and T. Zhang, Eds., ACM.
+## 📖 Categories
 
-### LLM+Other DL Modules 
-- ft11. Ziems, N., and Wu, S. Security vulnerability detection using deep learning natural language processing. In 2021 IEEE Conference on Computer Communications Workshops, INFOCOM Workshops 2021, Vancouver, BC, Canada, May 10-13, 2021 (2021), IEEE, pp. 1–6.
-- ft12.  Tang, W., Tang, M., Ban, M., Zhao, Z., and Feng, M. CSGVD: A deep learning approach combining sequence and graph embedding for source code vulnerability detection. J. Syst. Softw. 199 (2023), 111623.
-- ft13. Jiang, Z., Sun, W., Gu, X., Wu, J., Wen, T., Hu, H., and Yan, M. DFEPT: data flow embedding for enhancing pre-trained model based vulnerability detection. In Proceedings of the 15th Asia-Pacific Symposium on Internetware, Internetware 2024, Macau, SAR, China, July 24-26, 2024 (2024), H. Mei, J. Lv, A. Helal, X. Ma, S. Cheung, J. Zhang, and T. Zhang, Eds., ACM.
-- ft14. Yang, A. Z., Tian, H., Ye, H., Martins, R., and Goues, C. L. Security vulnerability detection with multitask self-instructed fine-tuning of large language models. arXiv preprint arXiv:2406.05892 (2024).
+| # | Category | Count | Key Focus |
+|---|----------|-------|-----------|
+| [0](#0-study) | Study | 1 | Survey & overview |
+| [1](#1-prompt-engineering-pe) | Prompt Engineering | 9 | Zero/few-shot prompting for vuln detection |
+| [2](#2-fine-tuning-ft) | Fine-Tuning | 33 | Supervised fine-tuning on vulnerable code |
+| [3](#3-retrieval-augmented-generation-rag) | RAG | 4 | Retrieval-augmented vuln detection |
+| [4](#4-evaluation) | Evaluation | 2 | Benchmarking & evaluation frameworks |
+| [5](#5-others) | Others | 2 | Misc approaches |
+| [6](#llm-for-code-generation) | Code Generation | 2 | Secure code generation |
+| [7](#llm-for-code-understanding) | Code Understanding | 3 | Code comprehension with LLMs |
 
-### Domain-specific Pre-training
-- ft15. Hanif, H., and Maffeis, S. Vulberta: Simplified source code pre-training for vulnerability detection. In International Joint Conference on Neural Networks, IJCNN 2022, Padua, Italy, July 18-23, 2022 (2022), IEEE, pp. 1–8.
-- ft16. Ni, C., Yin, X., Yang, K., Zhao, D., Xing, Z., and Xia, X. Distinguishing look-alike innocent and vulnerable code by
-subtle semantic representation learning and explanation. In Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (2023), pp. 1611–1622.
-- ft17. Wang, H., Tang, Z., Tan, S. H., Wang, J., Liu, Y., Fang, H., Xia, C., and Wang, Z. Combining structured static code information and dynamic symbolic traces for software vulnerability prediction. In Proceedings of the 46th International Conference on Software Engineering (2024), ACM.
-- ft18. Liu, Z., Tang, Z., Zhang, J., Xia, X., and Yang, X. Pre-training by predicting program dependencies for vulnerability analysis tasks. ICSE (2024).
-- ft19. Ding, Y., Fu, Y., Ibrahim, O., Sitawarin, C., Chen, X., Alomair, B., Wagner, D. A., Ray, B., and Chen, Y. Vulnerability detection with code language models: How far are we? arXiv preprint arXiv: 2403.18624 (2024).
-- ft20. Steenhoek, B., Rahman, M. M., Sharmin, S., and Le, W. Do language models learn semantics of code? A case study in vulnerability detection. arXiv preprint arXiv: 2311.04109 (2023).
+---
 
-### Causal Learning
-- ft21. Mahbubur Rahman, M., Ceka, I., Mao, C., Chakraborty, S., Ray, B., and Le, W. Towards causal deep learning for vulnerability detection. ICSE (2024).
-### Default Fine-tunning
-- ft22. Fu, M., and Tantithamthavorn, C. Linevul: A transformer-based line-level vulnerability prediction. In 19th IEEE/ACM International Conference on Mining Software Repositories, MSR 2022, Pittsburgh, PA, USA, May 23-24, 2022 (2022), ACM, pp. 608–620.
-- ft23. Thapa, C., Jang, S. I., Ahmed, M. E., Camtepe, S., Pieprzyk, J., and Nepal, S. Transformer-based language models for software vulnerability detection. In Annual Computer Security Applications Conference, ACSAC 2022, Austin, TX, USA, December 5-9, 2022 (2022), ACM, pp. 481–496.
-- ft24. Fu, M., Tantithamthavorn, C., Le, T., Kume, Y., Nguyen, V., Phung, D. Q., and Grundy, J. C. Aibughunter: A practical tool for predicting, classifying and repairing software vulnerabilities. Empir. Softw. Eng. 29, 1 (2024), 4.
-- ft25. Sejfia, A., Das, S., Shafiq, S., and Medvidovic, N. Toward improved deep learning-based vulnerability detection. In Proceedings of the 46th IEEE/ACM International Conference on Software Engineering, ICSE 2024, Lisbon, Portugal, April 14-20, 2024 (2024), ACM, pp. 62:1–62:12.
-- ft26. Risse, N., and Böhme, M. Uncovering the limits of machine learning for automatic vulnerability detection. In 33rd USENIX Security Symposium, USENIX Security 2024, Philadelphia, PA, USA, August 14-16, 2024 (2024), D. Balzarotti and W. Xu, Eds., USENIX Association.
-- ft27. Steenhoek, B., Rahman, M. M., Jiles, R., and Le, W. An empirical study of deep learning models for vulnerability detection. In 45th IEEE/ACM International Conference on Software Engineering, ICSE 2023, Melbourne, Australia, May 14-20, 2023 (2023), IEEE, pp. 2237–2248.
-- ft28. Chen, Y., Ding, Z., Alowain, L., Chen, X., and Wagner, D. A. Diversevul: A new vulnerable source code dataset for deep learning based vulnerability detection. In Proceedings of the 26th International Symposium on Research in Attacks, Intrusions and Defenses, RAID 2023, Hong Kong, China, October 16-18, 2023 (2023), ACM, pp. 654–668.
-- ft29. Li, Z., Wang, N., Zou, D., Li, Y., Zhang, R., Xu, S., Zhang, C., and Jin, H. On the effectiveness of functionlevel vulnerability detectors for inter-procedural vulnerabilities. In Proceedings of the 46th IEEE/ACM International Conference on Software Engineering, ICSE 2024, Lisbon, Portugal, April 14-20, 2024 (2024), ACM, pp. 157:1–157:12.
-- ft30. Croft, R., Babar, M. A., and Kholoosi, M. M. Data quality for software vulnerability datasets. In 45th IEEE/ACM International Conference on Software Engineering, ICSE 2023, Melbourne, Australia, May 14-20, 2023 (2023), IEEE, pp. 121–133.
-- ft31. Le, T. H. M., Du, X., and Babar, M. A. Are latent vulnerabilities hidden gems for software vulnerability prediction? an empirical study. In 21st IEEE/ACM International Conference on Mining Software Repositories, MSR 2024, Lisbon, Portugal, April 15-16, 2024 (2024), D. Spinellis, A. Bacchelli, and E. Constantinou, Eds., ACM, pp. 716–727.
-- ft32. Zhou, X., Tran, D.-M., Le-Cong, T., Zhang, T., Irsan, I. C., Sumarlin, J., Le, B., and Lo, D. Comparison of static application security testing tools and large language models for repo-level vulnerability detection. arXiv preprint arXiv:2407.16235 (2024).
-- ft33. Shestov, A., Cheshkov, A., Levichev, R., Mussabayev, R., Zadorozhny, P., Maslov, E., Vadim, C., and Bulychev, E. Finetuning large language models for vulnerability detection. CoRR abs/2401.17010 (2024).
+## 0. Study
 
-## 3. retrieval-augmented generation(rag)
-- rag1. Liu, Z., Liao, Q., Gu, W., and Gao, C. Software vulnerability detection with GPT and in-context learning. In 8th International Conference on Data Science in Cyberspace, DSC 2023, Hefei, China, August 18-20, 2023 (2023), IEEE, pp. 229–236.
-- rag2. Zhou, X., Zhang, T., and Lo, D. Large language model for vulnerability detection: Emerging results and future directions. ICSE NIER track (2024).
-- rag3. Du, X., Zheng, G., Wang, K., Feng, J., Deng, W., Liu, M., Chen, B., Peng, X., Ma, T., and Lou, Y. Vul-rag: Enhancing llm-based vulnerability detection via knowledge-level RAG. CoRR abs/2406.11147 (2024).
-- rag4. Wen, X., Wang, X., Chen, Y., Hu, R., Lo, D., and Gao, C. Vuleval: Towards repository-level evaluation of software vulnerability detection. CoRR abs/2404.15596 (2024).
+| # | Paper | Year | File |
+|---|-------|------|------|
+| 1 | [What Are We Doing With All This AI?](https://arxiv.org/pdf/2404.02525) | 2024 | — |
+
+---
+
+## 1. Prompt Engineering (pe)
+
+| # | Paper | Venue | Year | File |
+|---|-------|-------|------|------|
+| pe1 | Fu, M. et al. — ChatGPT for Vulnerability Detection, Classification, and Repair: How Far Are We? | APSEC | 2023 | [`pe/1.pdf`](pe/1.pdf) |
+| pe2 | Khare, A. et al. — [Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities](https://arxiv.org/abs/2311.16169) | arXiv | 2023 | [`pe/2.pdf`](pe/2.pdf) |
+| pe3 | Ni, C. et al. — [Learning-based Models for Vulnerability Detection: An Extensive Study](https://arxiv.org/abs/2408.07526) | arXiv | 2024 | [`pe/3.pdf`](pe/3.pdf) |
+| pe4 | Purba, M. D. et al. — [Software Vulnerability Detection Using Large Language Models](https://ieeexplore.ieee.org/document/10301302) | ISSRE Workshops | 2023 | [`pe/4.txt`](pe/4.txt) |
+| pe5 | Yin, X. — [Pros and Cons! Evaluating ChatGPT on Software Vulnerability](https://arxiv.org/abs/2404.03994) | CoRR | 2024 | [`pe/5.pdf`](pe/5.pdf) |
+| pe6 | Zhang, C. et al. — [Prompt-Enhanced Software Vulnerability Detection Using ChatGPT](https://arxiv.org/abs/2308.12697) | arXiv | 2023 | [`pe/6.pdf`](pe/6.pdf) |
+| pe7 | Zhou, X. et al. — [Comparison of Static Application Security Testing Tools and Large Language Models for Repo-Level Vulnerability Detection](https://arxiv.org/abs/2407.16235) | arXiv | 2024 | [`pe/7.pdf`](pe/7.pdf) |
+| pe8 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`pe/8.pdf`](pe/8.pdf) |
+| pe9 | Wang, C. et al. — [LLMDFA: Analyzing Dataflow in Code with Large Language Models](https://papers.nips.cc/paper_files/paper/2024/hash/...) | NeurIPS | 2024 | — |
+
+---
+
+## 2. Fine-Tuning (ft)
+
+### 📊 Data-Centric Innovations
+
+| # | Paper | Venue | Year | File |
+|---|-------|-------|------|------|
+| ft1 | Wen, X. et al. — When Less Is Enough: Positive and Unlabeled Learning Model for Vulnerability Detection | ASE | 2023 | [`ft/1.pdf`](ft/1.pdf) |
+| ft2 | Kuang, H. et al. — [Leveraging User-Defined Identifiers for Counterfactual Data Generation in Source Code Vulnerability Detection](https://ieeexplore.ieee.org/document/10356404) | SCAM | 2023 | [`ft/2.txt`](ft/2.txt) |
+| ft3 | Ding, Y. et al. — [Vulnerability Detection with Code Language Models: How Far Are We?](https://arxiv.org/abs/2403.18624) | arXiv | 2024 | [`ft/3.pdf`](ft/3.pdf) |
+| ft4 | Yang, X. et al. — Does Data Sampling Improve Deep Learning-Based Vulnerability Detection? Yeas! and Nays! | ICSE | 2023 | [`ft/4.pdf`](ft/4.pdf) |
+
+### 🔬 Combining with Program Analysis
+
+| # | Paper | Venue | Year | File |
+|---|-------|-------|------|------|
+| ft5 | Peng, T. et al. — PTLVD: Program Slicing and Transformer-Based Line-Level Vulnerability Detection System | SCAM | 2023 | — |
+| ft6 | Zhang, J. et al. — [Vulnerability Detection by Learning from Syntax-Based Execution Paths of Code](https://github.com/llmhacking/papers) | IEEE TSE | 2023 | [`ft/6.pdf`](ft/6.pdf) |
+| ft7 | Wang, H. et al. — Combining Structured Static Code Information and Dynamic Symbolic Traces for Software Vulnerability Prediction | ICSE | 2024 | [`ft/7.pdf`](ft/7.pdf) |
+| ft8 | Liu, Z. et al. — Pre-Training by Predicting Program Dependencies for Vulnerability Analysis Tasks | ICSE | 2024 | [`ft/8.pdf`](ft/8.pdf) |
+| ft9 | Tran, H.-C. et al. — DetectVul: A Statement-Level Code Vulnerability Detection for Python | FGCS | 2024 | — |
+| ft10 | Weng, C. et al. — [MATSVD: Boosting Statement-Level Vulnerability Detection via Dependency-Based Attention](https://dl.acm.org/doi/10.1145/3671016.3674807) | Internetware | 2024 | [`ft/10.txt`](ft/10.txt) |
+
+### 🧩 LLM + Other DL Modules
+
+| # | Paper | Venue | Year | File |
+|---|-------|-------|------|------|
+| ft11 | Ziems, N., Wu, S. — Security Vulnerability Detection Using Deep Learning Natural Language Processing | INFOCOM Workshops | 2021 | — |
+| ft12 | Tang, W. et al. — CSGVD: A Deep Learning Approach Combining Sequence and Graph Embedding for Source Code Vulnerability Detection | J. Syst. Softw. | 2023 | — |
+| ft13 | Jiang, Z. et al. — DFEPT: Data Flow Embedding for Enhancing Pre-Trained Model Based Vulnerability Detection | Internetware | 2024 | — |
+| ft14 | Yang, A. Z. et al. — [Security Vulnerability Detection with Multitask Self-Instructed Fine-Tuning of Large Language Models](https://arxiv.org/abs/2406.05892) | arXiv | 2024 | — |
+
+### 🏗️ Domain-Specific Pre-Training
+
+| # | Paper | Venue | Year | File |
+|---|-------|-------|------|------|
+| ft15 | Hanif, H., Maffeis, S. — VulBERTa: Simplified Source Code Pre-Training for Vulnerability Detection | IJCNN | 2022 | — |
+| ft16 | Ni, C. et al. — Distinguishing Look-Alike Innocent and Vulnerable Code by Subtle Semantic Representation Learning and Explanation | ESEC/FSE | 2023 | — |
+| ft17 | Wang, H. et al. — Combining Structured Static Code Information and Dynamic Symbolic Traces | ICSE | 2024 | — |
+| ft18 | Liu, Z. et al. — Pre-Training by Predicting Program Dependencies | ICSE | 2024 | — |
+| ft19 | Ding, Y. et al. — [Vulnerability Detection with Code Language Models: How Far Are We?](https://arxiv.org/abs/2403.18624) | arXiv | 2024 | — |
+| ft20 | Steenhoek, B. et al. — [Do Language Models Learn Semantics of Code? A Case Study in Vulnerability Detection](https://arxiv.org/abs/2311.04109) | arXiv | 2023 | — |
+
+### 🔗 Causal Learning
+
+| # | Paper | Venue | Year | File |
+|---|-------|-------|------|------|
+| ft21 | Mahbubur Rahman, M. et al. — Towards Causal Deep Learning for Vulnerability Detection | ICSE | 2024 | — |
+
+### ⚙️ Default Fine-Tuning
+
+| # | Paper | Venue | Year | File |
+|---|-------|-------|------|------|
+| ft22 | Fu, M., Tantithamthavorn, C. — LineVul: A Transformer-Based Line-Level Vulnerability Prediction | MSR | 2022 | — |
+| ft23 | Thapa, C. et al. — Transformer-Based Language Models for Software Vulnerability Detection | ACSAC | 2022 | — |
+| ft24 | Fu, M. et al. — AiBugHunter: A Practical Tool for Predicting, Classifying and Repairing Software Vulnerabilities | EMSE | 2024 | — |
+| ft25 | Sejfia, A. et al. — Toward Improved Deep Learning-Based Vulnerability Detection | ICSE | 2024 | — |
+| ft26 | Risse, N., Böhme, M. — Uncovering the Limits of Machine Learning for Automatic Vulnerability Detection | USENIX Security | 2024 | — |
+| ft27 | Steenhoek, B. et al. — An Empirical Study of Deep Learning Models for Vulnerability Detection | ICSE | 2023 | — |
+| ft28 | Chen, Y. et al. — DiverseVul: A New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection | RAID | 2023 | — |
+| ft29 | Li, Z. et al. — On the Effectiveness of Function-Level Vulnerability Detectors for Inter-Procedural Vulnerabilities | ICSE | 2024 | — |
+| ft30 | Croft, R. et al. — Data Quality for Software Vulnerability Datasets | ICSE | 2023 | — |
+| ft31 | Le, T. H. M. et al. — Are Latent Vulnerabilities Hidden Gems for Software Vulnerability Prediction? | MSR | 2024 | — |
+| ft32 | Zhou, X. et al. — [Comparison of SAST Tools and LLMs for Repo-Level Vulnerability Detection](https://arxiv.org/abs/2407.16235) | arXiv | 2024 | — |
+| ft33 | Shestov, A. et al. — [Fine-Tuning Large Language Models for Vulnerability Detection](https://arxiv.org/abs/2401.17010) | CoRR | 2024 | — |
+
+---
+
+## 3. Retrieval-Augmented Generation (rag)
+
+| # | Paper | Venue | Year | File |
+|---|-------|-------|------|------|
+| rag1 | Liu, Z. et al. — [Software Vulnerability Detection with GPT and In-Context Learning](https://ieeexplore.ieee.org/document/10381286) | DSC | 2023 | [`rag/1.txt`](rag/1.txt) |
+| rag2 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`rag/2.pdf`](rag/2.pdf) |
+| rag3 | Du, X. et al. — [Vul-RAG: Enhancing LLM-Based Vulnerability Detection via Knowledge-Level RAG](https://arxiv.org/abs/2406.11147) | CoRR | 2024 | [`rag/3.pdf`](rag/3.pdf) |
+| rag4 | Wen, X. et al. — [VulEval: Towards Repository-Level Evaluation of Software Vulnerability Detection](https://arxiv.org/abs/2404.15596) | CoRR | 2024 | [`rag/4.pdf`](rag/4.pdf) |
+
+---
 
 ## 4. Evaluation
-- ev1. [LLM4Vuln: A Unified Evaluation Framework for Decoupling and
-Enhancing LLMs’ Vulnerability Reasoning](https://arxiv.org/pdf/2401.16185)
-- ev2. [LSAST: Enhancing Cybersecurity through LLM-supported Static Application Security Testing
-](https://arxiv.org/html/2409.15735v2)
 
-## 5. others
-- o1. LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
-- o2. [How Well Do Large Language Models Serve as End-to-End Secure
-Code Producers?](https://arxiv.org/pdf/2408.10495) 
+| # | Paper | Year | File |
+|---|-------|------|------|
+| ev1 | [LLM4Vuln: A Unified Evaluation Framework for Decoupling and Enhancing LLMs' Vulnerability Reasoning](https://arxiv.org/pdf/2401.16185) | 2024 | — |
+| ev2 | [LSAST: Enhancing Cybersecurity through LLM-Supported Static Application Security Testing](https://arxiv.org/html/2409.15735v2) | 2024 | — |
 
-# LLM for Code Generation
-- g1. [Improving LLM Code Generation with Grammar Augmentation
-](https://arxiv.org/html/2403.01632v1)
-- g2. [A Survey on Large Language Models for Code Generation
-](https://arxiv.org/pdf/2406.00515)
+---
 
-# LLm for Code Understanding
-- u1. [Testing the Effect of Code Documentation on Large Language Model Code
-Understanding](https://arxiv.org/pdf/2404.03114)
-- u2. [Using an LLM to Help With Code Understanding](https://arxiv.org/html/2307.08177v3)
-- u3. [Automatic Semantic Augmentation of Language Model Prompts
-(for Code Summarization)](https://arxiv.org/pdf/2304.06815)
+## 5. Others
+
+| # | Paper | Year |
+|---|-------|------|
+| o1 | LLM-Assisted Static Analysis for Detecting Security Vulnerabilities | — |
+| o2 | [How Well Do Large Language Models Serve as End-to-End Secure Code Producers?](https://arxiv.org/pdf/2408.10495) | 2024 |
+
+---
+
+## LLM for Code Generation
+
+| # | Paper | Year |
+|---|-------|------|
+| g1 | [Improving LLM Code Generation with Grammar Augmentation](https://arxiv.org/html/2403.01632v1) | 2024 |
+| g2 | [A Survey on Large Language Models for Code Generation](https://arxiv.org/pdf/2406.00515) | 2024 |
+
+---
+
+## LLM for Code Understanding
+
+| # | Paper | Year |
+|---|-------|------|
+| u1 | [Testing the Effect of Code Documentation on Large Language Model Code Understanding](https://arxiv.org/pdf/2404.03114) | 2024 |
+| u2 | [Using an LLM to Help With Code Understanding](https://arxiv.org/html/2307.08177v3) | 2023 |
+| u3 | [Automatic Semantic Augmentation of Language Model Prompts (for Code Summarization)](https://arxiv.org/pdf/2304.06815) | 2023 |
+
+---
+
+## 📁 Repository Structure
+
+```
+papers/
+├── README.md          # This file — full index with hyperlinks
+├── .gitignore
+├── pe/                # Prompt Engineering papers
+├── ft/                # Fine-Tuning papers
+├── rag/               # RAG papers
+├── ev/                # Evaluation papers
+├── study/             # Survey / overview
+├── gen/               # Code generation
+└── understand/        # Code understanding
+```
+
+Papers in `pe/`, `ft/`, and `rag/` are stored as either:
+- **`.pdf`** — full paper downloaded (for offline access)
+- **`.txt`** — link to official publication (DOI or IEEE/ACM)
+
+---
+
+> Maintained by [@llmhacking](https://github.com/llmhacking)
