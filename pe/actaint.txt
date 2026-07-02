@@ -1,0 +1,4 @@
+ACTaint: Agent-Based Taint Analysis for Access Control Vulnerabilities in Smart Contracts
+https://doi.org/10.1109/ase63991.2025.00210
+Huarui Lin, Zhipeng Gao, Jiachi Chen, Xiang Chen, Xiaohu Yang, Lingfeng Bao
+ASE 2025

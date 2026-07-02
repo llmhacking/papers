@@ -169,7 +169,7 @@ Papers from the survey "大模型赋能静态漏洞挖掘研究进展" on LLM-em
 | [4] | Liu, P. et al. — [LATTE: LLM-Powered Static Binary Taint Analysis](https://arxiv.org/abs/2310.08275) | TOSEM | 2025 | Binary taint analysis, keypoint + dataflow | [`pe/latte.pdf`](pe/latte.pdf) |
 | [5] | Li, Y. et al. — [AutoBug: Large Language Model Powered Symbolic Execution](https://arxiv.org/abs/2505.13452) | OOPSLA | 2025 | Reachability analysis | [`pe/autobug.pdf`](pe/autobug.pdf) |
 | [6] | — [LLIFT: Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach](https://dl.acm.org/doi/10.1145/3649828) | OOPSLA | 2024 | Keypoint + dataflow analysis | [`pe/llift.pdf`](pe/llift.pdf) |
-| [7] | — **ACTaint** (ASE 2025) | ASE | 2025 | Contextual taint analysis | — ❌ not found |
+| [7] | Lin, H. et al. — [ACTaint: Agent-Based Taint Analysis for Access Control Vulnerabilities in Smart Contracts](https://doi.org/10.1109/ase63991.2025.00210) | ASE | 2025 | Agent-based taint analysis for smart contract AC vulns | [`pe/actaint.txt`](pe/actaint.txt) (IEEE paywall) |
 | [8] | — **Hyperion** (ICSE 2025) | ICSE | 2025 | Vulnerability detection | — ❌ not found |
 | [9] | — **GPTAid** (NDSS 2025) | NDSS | 2025 | GPT-assisted detection | — ❌ not found |
 | [10] | Lekssays, A. et al. — [LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models](https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays) | USENIX Security | 2025 | Code property graph + LLM | [`pe/llmxcpg.pdf`](pe/llmxcpg.pdf) |
