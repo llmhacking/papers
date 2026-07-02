@@ -9,7 +9,7 @@ A curated collection of academic papers on using Large Language Models for softw
 | [1](#1-prompt-engineering--agent-based-pe) | Prompt Engineering & Agent-based | 17 | Prompting and LLM agents for vuln detection |
 | [2](#2-fine-tuning-ft) | Fine-Tuning | 33 | Supervised fine-tuning on vulnerable code |
 | [3](#3-rag--knowledge-augmented-rag) | RAG & Knowledge-Augmented | 5 | Retrieval-augmented & CPG-guided vuln detection |
-| [4](#4-evaluation--benchmarks-ev) | Evaluation & Benchmarks | 2 | Benchmarking & evaluation frameworks |
+| [4](#4-evaluation--benchmarks-ev) | Evaluation & Benchmarks | 5 | Benchmarking & evaluation frameworks |
 | [5](#5-code-generation-gen) | Code Generation | 2 | Secure code generation |
 | [6](#6-code-understanding-understand) | Code Understanding | 3 | Code comprehension with LLMs |
 | [7](#7-surveys--overviews-study) | Surveys & Overviews | 1 | Survey & overview |
@@ -127,6 +127,9 @@ A curated collection of academic papers on using Large Language Models for softw
 |---|-------|------|------|
 | ev1 | [LLM4Vuln: A Unified Evaluation Framework for Decoupling and Enhancing LLMs' Vulnerability Reasoning](https://arxiv.org/pdf/2401.16185) | 2024 | — |
 | ev2 | [LSAST: Enhancing Cybersecurity through LLM-Supported Static Application Security Testing](https://arxiv.org/html/2409.15735v2) | 2024 | — |
+| ev3 | CyberGym et al. — [CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale](https://arxiv.org/abs/2506.02548) | 2025 | — |
+| ev4 | Zhun Wang et al. — [ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?](https://arxiv.org/abs/2605.11086) | 2025 | — |
+| ev5 | Tianneng Shi et al. — [CyberGym-E2E: Scalable Real-World Benchmark for AI Agents' End-to-End Cybersecurity Capabilities](https://arxiv.org/abs/2606.04460) | 2025 | — |
 
 ---
 
