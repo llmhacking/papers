@@ -12,7 +12,7 @@ A curated collection of academic papers on using Large Language Models for softw
 | [4](#4-evaluation--benchmarks-ev) | Evaluation & Benchmarks | 5 | Benchmarking & evaluation frameworks |
 | [5](#5-code-generation-gen) | Code Generation | 2 | Secure code generation |
 | [6](#6-code-understanding-understand) | Code Understanding | 3 | Code comprehension with LLMs |
-| [7](#7-surveys--overviews-study) | Surveys & Overviews | 1 | Survey & overview |
+| [7](#7-surveys--overviews-study) | Surveys | Surveys & Overviews | 1 | Overviews | 5 | Survey & overview |
 | [8](#8-others) | Others | 1 | Misc approaches |
 
 ---
@@ -170,7 +170,11 @@ A curated collection of academic papers on using Large Language Models for softw
 
 | # | Paper | Year | File |
 |---|-------|------|------|
-| s1 | [What Are We Doing With All This AI?](https://arxiv.org/pdf/2404.02525) | 2024 | — |
+| s1 | [Large Language Model for Vulnerability Detection and Repair: Literature Review and the Road Ahead](https://arxiv.org/pdf/2404.02525) | 2024 | — |
+| s2 | [LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights](https://arxiv.org/abs/2502.07049) | 2025 | — |
+| s3 | [A Systematic Literature Review on Detecting Software Vulnerabilities with Large Language Models](https://arxiv.org/abs/2507.22659) | 2025 | — |
+| s4 | Chen, Y. et al. — [Software Defect Detection Using Large Language Models: A Literature Review](https://link.springer.com/article/10.1007/s11704-025-40672-2) | 2026 | — |
+| s5 | [When Labels Are Scarce: A Systematic Mapping of Label-Efficient Code Vulnerability Detection](https://arxiv.org/abs/2604.00079) | 2026 | — |
 
 ---
 
