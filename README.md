@@ -9,7 +9,7 @@ A curated collection of academic papers on using Large Language Models for softw
 | [1](#1-prompt-engineering--knowledge-augmented-pe) | Prompt Engineering & Knowledge-Augmented | 27 | Prompting, CoT, RAG, CPG-guided reasoning |
 | [2](#2-agent-based-systems-agent) | Agent-based Systems | 29 | Autonomous agents, multi-agent, self-improving agents |
 | [3](#3-fine-tuning-ft) | Fine-Tuning | 33 | Supervised fine-tuning on vulnerable code |
-| [4](#4-evaluation--benchmarks-ev) | Evaluation & Benchmarks | 5 | Benchmarking & evaluation frameworks |
+| [4](#4-evaluation--benchmarks-ev) | Evaluation | Evaluation & Benchmarks | 5 | Benchmarks | 10 | Benchmarking & evaluation frameworks |
 | [5](#5-code-generation-gen) | Code Generation | 2 | Secure code generation |
 | [6](#6-code-understanding-understand) | Code Understanding | 3 | Code comprehension with LLMs |
 | [7](#7-surveys--overviews-study) | Surveys & Overviews | 5 | Survey & overview |
@@ -213,6 +213,11 @@ A curated collection of academic papers on using Large Language Models for softw
 | ev3 | CyberGym et al. — [CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale](https://arxiv.org/abs/2506.02548) | 2025 | — |
 | ev4 | Zhun Wang et al. — [ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?](https://arxiv.org/abs/2605.11086) | 2025 | — |
 | ev5 | Tianneng Shi et al. — [CyberGym-E2E: Scalable Real-World Benchmark for AI Agents' End-to-End Cybersecurity Capabilities](https://arxiv.org/abs/2606.04460) | 2025 | — |
+| ev6 | — [CyberChainBench: Can AI Agents Secure Smart Contracts Against Real-World On-Chain Vulnerabilities?](https://arxiv.org/abs/2606.26216) | 2026 | — |
+| ev7 | — [VulnGym: A Real-World, Project-Level Vulnerability Benchmark for White-Box Vulnerability-Hunting Agents](https://github.com/Tencent/VulnGym) | 2026 | — |
+| ev8 | — [SecLens: Benchmarking LLM Vuln Detection Through 5 Stakeholder Lenses on 406 Real-World CVEs](https://arxiv.org/abs/2604.01637) | 2026 | — |
+| ev9 | — [SV-TrustEval-C: Evaluating Structure and Semantic Reasoning for Source Code Vulnerability Analysis](https://arxiv.org/abs/2505.20630) | IEEE S&P | 2025 | — |
+| ev10 | — [SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection](https://arxiv.org/abs/2505.19828) | 2025 | — |
 
 ---
 
