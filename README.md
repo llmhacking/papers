@@ -53,6 +53,9 @@ A curated collection of academic papers on using Large Language Models for softw
 | pe29 | — [Veritas: A Semantically Grounded Agentic Framework for Memory Corruption Vulnerability Detection in Binaries](https://arxiv.org/abs/2605.15097) | arXiv | 2025 | — |
 | pe30 | — [Sifting the Noise: A Comparative Study of LLM Agents in Vulnerability False Positive Filtering](https://arxiv.org/abs/2601.22952) | arXiv | 2026 | — |
 | pe31 | — [Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications](https://arxiv.org/abs/2403.16073) | ICSE | 2025 | — |
+| pe32 | — [SAEL: Leveraging Large Language Models with Adaptive Mixture-of-Experts for Smart Contract Vulnerability Detection](https://arxiv.org/abs/2507.22371) | arXiv | 2025 | — |
+| pe33 | — [MOS: Towards Effective Smart Contract Vulnerability Detection through Mixture-of-Experts Tuning of Large Language Models](https://arxiv.org/abs/2504.12234) | arXiv | 2025 | — |
+| pe34 | — [Ensembling Large Language Models for Code Vulnerability Detection: An Empirical Evaluation](https://arxiv.org/abs/2509.12629) | arXiv | 2025 | — |
 
 ---
 
