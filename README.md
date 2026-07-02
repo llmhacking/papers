@@ -11,10 +11,10 @@ A curated collection of academic papers on using Large Language Models for softw
 | [2](#2-fine-tuning-ft) | Fine-Tuning | 33 | Supervised fine-tuning on vulnerable code |
 | [3](#3-retrieval-augmented-generation-rag) | RAG | 4 | Retrieval-augmented vuln detection |
 | [4](#4-evaluation) | Evaluation | 2 | Benchmarking & evaluation frameworks |
-| [5](#5-others) | Others | 2 | Misc approaches |
-| [6](#llm-for-code-generation) | Code Generation | 2 | Secure code generation |
-| [7](#llm-for-code-understanding) | Code Understanding | 3 | Code comprehension with LLMs |
-| [8](#8-llm-enhanced-static-analysis-2025) | LLM-Enhanced Static Analysis | 10 | LLM-empowered static vuln detection (2025 survey) |
+| [5](#5-llm-for-code-generation) | Code Generation | 2 | Secure code generation |
+| [6](#6-llm-for-code-understanding) | Code Understanding | 3 | Code comprehension with LLMs |
+| [7](#7-llm-enhanced-static-analysis-2025) | LLM-Enhanced Static Analysis | 10 | LLM-empowered static vuln detection (2025 survey) |
+| [8](#8-others) | Others | 1 | Misc approaches |
 
 ---
 
@@ -129,15 +129,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 5. Others
-
-| # | Paper | Year |
-|---|-------|------|
-| o1 | [How Well Do Large Language Models Serve as End-to-End Secure Code Producers?](https://arxiv.org/pdf/2408.10495) | 2024 |
-
----
-
-## 6. LLM for Code Generation
+## 5. LLM for Code Generation
 
 | # | Paper | Year |
 |---|-------|------|
@@ -146,7 +138,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 7. LLM for Code Understanding
+## 6. LLM for Code Understanding
 
 | # | Paper | Year |
 |---|-------|------|
@@ -156,7 +148,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 8. LLM-Enhanced Static Analysis (2025)
+## 7. LLM-Enhanced Static Analysis (2025)
 
 | # | Paper | Venue | Year | Key Focus | File |
 |---|-------|-------|------|----------|------|
@@ -174,6 +166,14 @@ A curated collection of academic papers on using Large Language Models for softw
 **Notes:**
 - LLIFT is OOPSLA 2024 (not 2025), included for completeness.
 - ACTaint is behind IEEE paywall; Hyperion and GPTAid not yet found.
+
+---
+
+## 8. Others
+
+| # | Paper | Year |
+|---|-------|------|
+| o1 | [How Well Do Large Language Models Serve as End-to-End Secure Code Producers?](https://arxiv.org/pdf/2408.10495) | 2024 |
 
 ---
 
