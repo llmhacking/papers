@@ -17,6 +17,10 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
+> **Sections 1–4** focus on vulnerability detection. **Sections 5–6** cover adjacent areas (code generation, code understanding) that are relevant but not directly about vulnerability detection.
+
+---
+
 ## 1. Prompt Engineering & Knowledge-Augmented (pe)
 
 | # | Paper | Venue | Year | File |
