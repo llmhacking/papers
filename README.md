@@ -6,7 +6,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 | # | Category | Count | Key Focus |
 |---|----------|-------|-----------|
-| [1](#1-prompt-engineering--agent-based-pe) | Prompt Engineering & Agent-based | 17 | Prompting and LLM agents for vuln detection |
+| [1](#1-prompt-engineering--agent-based-pe) | Prompt Engineering | Prompt Engineering & Agent-based | 17 | Agent-based | 31 | Prompting and LLM agents for vuln detection |
 | [2](#2-fine-tuning-ft) | Fine-Tuning | 33 | Supervised fine-tuning on vulnerable code |
 | [3](#3-rag--knowledge-augmented-rag) | RAG & Knowledge-Augmented | 5 | Retrieval-augmented & CPG-guided vuln detection |
 | [4](#4-evaluation--benchmarks-ev) | Evaluation & Benchmarks | 5 | Benchmarking & evaluation frameworks |
@@ -39,6 +39,20 @@ A curated collection of academic papers on using Large Language Models for softw
 | pe15 | Lin, H. et al. — [ACTaint: Agent-Based Taint Analysis for Access Control Vulnerabilities in Smart Contracts](https://doi.org/10.1109/ase63991.2025.00210) | ASE | 2025 | [`pe/actaint.txt`](pe/actaint.txt) |
 | pe16 | — **Hyperion** (ICSE 2025) | ICSE | 2025 | — ❌ |
 | pe17 | — **GPTAid** (NDSS 2025) | NDSS | 2025 | — ❌ |
+| pe18 | Wang, Z. et al. — [Revelio: Cost-Efficient Agentic Memory Safety Vulnerability Detection For Repository-Scale Codebases](https://arxiv.org/abs/2606.22263) | arXiv | 2026 | — |
+| pe19 | — [Code-Augur: Agentic Vulnerability Detection via Specification Inference](https://arxiv.org/abs/2606.18619) | arXiv | 2026 | — |
+| pe20 | — [Security in a Workflow: Exploring Role-Based Agentic Architectures for Vulnerability Handling](https://arxiv.org/abs/2606.14261) | arXiv | 2026 | — |
+| pe21 | — [FuzzingBrain V2: A Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction](https://arxiv.org/abs/2605.21779) | arXiv | 2025 | — |
+| pe22 | — [MulVul: Retrieval-augmented Multi-Agent Code Vulnerability Detection via Cross-Model Prompt Evolution](https://arxiv.org/abs/2601.18847) | arXiv | 2026 | — |
+| pe23 | — [AgenticSCR: An Autonomous Agentic Secure Code Review for Immature Vulnerabilities Detection](https://arxiv.org/abs/2601.19138) | arXiv | 2026 | — |
+| pe24 | — [Synthesizing Multi-Agent Harnesses for Vulnerability Discovery](https://arxiv.org/abs/2604.20801) | arXiv | 2026 | — |
+| pe25 | — [VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection](https://arxiv.org/abs/2512.07533) | arXiv | 2025 | — |
+| pe26 | — [PromptAudit: Auditing Prompt Sensitivity in LLM-Based Vulnerability Detection](https://arxiv.org/abs/2605.24171) | arXiv | 2025 | — |
+| pe27 | — [Antaeus: Hunting Repository-Level Logic Vulnerabilities via Context-Grounded LLM Reasoning](https://arxiv.org/abs/2607.01138) | arXiv | 2026 | — |
+| pe28 | — [Three Heads Are Better Than One: A Multi-perspective Reasoning Framework for Enhanced Vulnerability Detection](https://arxiv.org/abs/2605.18153) | arXiv | 2025 | — |
+| pe29 | — [Veritas: A Semantically Grounded Agentic Framework for Memory Corruption Vulnerability Detection in Binaries](https://arxiv.org/abs/2605.15097) | arXiv | 2025 | — |
+| pe30 | — [Sifting the Noise: A Comparative Study of LLM Agents in Vulnerability False Positive Filtering](https://arxiv.org/abs/2601.22952) | arXiv | 2026 | — |
+| pe31 | — [Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications](https://arxiv.org/abs/2403.16073) | ICSE | 2025 | — |
 
 ---
 
