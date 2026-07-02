@@ -55,11 +55,11 @@ A curated collection of academic papers on using Large Language Models for softw
 | pe31 | — [Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications](https://arxiv.org/abs/2403.16073) | ICSE | 2025 | — |
 | pe32 | — [SAEL: Leveraging Large Language Models with Adaptive Mixture-of-Experts for Smart Contract Vulnerability Detection](https://arxiv.org/abs/2507.22371) | arXiv | 2025 | — |
 | pe33 | — [MOS: Towards Effective Smart Contract Vulnerability Detection through Mixture-of-Experts Tuning of Large Language Models](https://arxiv.org/abs/2504.12234) | arXiv | 2025 | — |
-| pe34 | — [Ensembling Large Language Models for Code Vulnerability Detection: An Empirical Evaluation](https://arxiv.org/abs/2509.12629) | arXiv | 2025 | — |
-
----
-
-## 2. Fine-Tuning (ft)
+| pe35 | 🎯 — [QLPro: Automated Code Vulnerability Discovery via LLM and Static Code Analysis Integration](https://arxiv.org/abs/2506.23644) | arXiv | 2025 | 📌 TODO |
+| pe36 | 🎯 — [CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability](https://arxiv.org/abs/2602.03012) | arXiv | 2026 | 📌 TODO |
+| pe37 | 🎯 — [CQLLM: LLM-Driven CodeQL Security Vulnerability Detection Code Auto-Generation](https://preprints.org) | Preprints | 2025 | 📌 TODO |
+| pe38 | 🎯 — [Vulnhalla: CodeQL + LLM Post-Processing for Vuln Detection](https://www.cyberark.com) | CyberArk | 2025 | 📌 TODO |
+| pe39 | 🎯 — [OpenAI Aardvark: Agentic Security Researcher](https://openai.com/index/aardvark/) | OpenAI | 2025 | 📌 TODO |
 
 ### 📊 Data-Centric Innovations
 
