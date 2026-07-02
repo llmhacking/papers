@@ -6,80 +6,74 @@ A curated collection of academic papers on using Large Language Models for softw
 
 | # | Category | Count | Key Focus |
 |---|----------|-------|-----------|
-| [1](#1-prompt-engineering--reasoning-pr) | Prompt Engineering & Reasoning | 22 | Zero/few-shot prompting, CoT, multi-perspective reasoning |
+| [1](#1-prompt-engineering--knowledge-augmented-pe) | Prompt Engineering & Knowledge-Augmented | 27 | Prompting, CoT, RAG, CPG-guided reasoning |
 | [2](#2-agent-based-systems-agent) | Agent-based Systems | 29 | Autonomous agents, multi-agent, self-improving agents |
 | [3](#3-fine-tuning-ft) | Fine-Tuning | 33 | Supervised fine-tuning on vulnerable code |
-| [4](#4-rag--knowledge-augmented-rag) | RAG & Knowledge-Augmented | 5 | Retrieval-augmented & CPG-guided vuln detection |
-| [5](#5-evaluation--benchmarks-ev) | Evaluation & Benchmarks | 5 | Benchmarking & evaluation frameworks |
-| [6](#6-code-generation-gen) | Code Generation | 2 | Secure code generation |
-| [7](#7-code-understanding-understand) | Code Understanding | 3 | Code comprehension with LLMs |
-| [8](#8-surveys--overviews-study) | Surveys & Overviews | 5 | Survey & overview |
-| [9](#9-others) | Others | 1 | Misc approaches |
+| [4](#4-evaluation--benchmarks-ev) | Evaluation & Benchmarks | 5 | Benchmarking & evaluation frameworks |
+| [5](#5-code-generation-gen) | Code Generation | 2 | Secure code generation |
+| [6](#6-code-understanding-understand) | Code Understanding | 3 | Code comprehension with LLMs |
+| [7](#7-surveys--overviews-study) | Surveys & Overviews | 5 | Survey & overview |
 
 ---
 
-
-## 1. Prompt Engineering & Reasoning (pr)
-
-
+## 1. Prompt Engineering & Knowledge-Augmented (pe)
 
 | # | Paper | Venue | Year | File |
 
 |---|-------|-------|------|------|
 
-| pr1 | Fu, M. et al. — ChatGPT for Vulnerability Detection, Classification, and Repair: How Far Are We? | APSEC | 2023 | [`pe/1.pdf`](pe/1.pdf) |
+| pe1 | Fu, M. et al. — ChatGPT for Vulnerability Detection, Classification, and Repair: How Far Are We? | APSEC | 2023 | [`pe/1.pdf`](pe/1.pdf) |
 
-| pr2 | Khare, A. et al. — [Understanding the Effectiveness of LLMs in Detecting Security Vulnerabilities](https://arxiv.org/abs/2311.16169) | arXiv | 2023 | [`pe/2.pdf`](pe/2.pdf) |
+| pe2 | Khare, A. et al. — [Understanding the Effectiveness of LLMs in Detecting Security Vulnerabilities](https://arxiv.org/abs/2311.16169) | arXiv | 2023 | [`pe/2.pdf`](pe/2.pdf) |
 
-| pr3 | Ni, C. et al. — [Learning-based Models for Vulnerability Detection: An Extensive Study](https://arxiv.org/abs/2408.07526) | arXiv | 2024 | [`pe/3.pdf`](pe/3.pdf) |
+| pe3 | Ni, C. et al. — [Learning-based Models for Vulnerability Detection: An Extensive Study](https://arxiv.org/abs/2408.07526) | arXiv | 2024 | [`pe/3.pdf`](pe/3.pdf) |
 
-| pr4 | Purba, M. D. et al. — [Software Vulnerability Detection Using Large Language Models](https://ieeexplore.ieee.org/document/10301302) | ISSRE Workshops | 2023 | [`pe/4.txt`](pe/4.txt) |
+| pe4 | Purba, M. D. et al. — [Software Vulnerability Detection Using Large Language Models](https://ieeexplore.ieee.org/document/10301302) | ISSRE Workshops | 2023 | [`pe/4.txt`](pe/4.txt) |
 
-| pr5 | Yin, X. — [Pros and Cons! Evaluating ChatGPT on Software Vulnerability](https://arxiv.org/abs/2404.03994) | CoRR | 2024 | [`pe/5.pdf`](pe/5.pdf) |
+| pe5 | Yin, X. — [Pros and Cons! Evaluating ChatGPT on Software Vulnerability](https://arxiv.org/abs/2404.03994) | CoRR | 2024 | [`pe/5.pdf`](pe/5.pdf) |
 
-| pr6 | Zhang, C. et al. — [Prompt-Enhanced Software Vulnerability Detection Using ChatGPT](https://arxiv.org/abs/2308.12697) | arXiv | 2023 | [`pe/6.pdf`](pe/6.pdf) |
+| pe6 | Zhang, C. et al. — [Prompt-Enhanced Software Vulnerability Detection Using ChatGPT](https://arxiv.org/abs/2308.12697) | arXiv | 2023 | [`pe/6.pdf`](pe/6.pdf) |
 
-| pr7 | Zhou, X. et al. — [Comparison of SAST Tools and LLMs for Repo-Level Vulnerability Detection](https://arxiv.org/abs/2407.16235) | arXiv | 2024 | [`pe/7.pdf`](pe/7.pdf) |
+| pe7 | Zhou, X. et al. — [Comparison of SAST Tools and LLMs for Repo-Level Vulnerability Detection](https://arxiv.org/abs/2407.16235) | arXiv | 2024 | [`pe/7.pdf`](pe/7.pdf) |
 
-| pr8 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`pe/8.pdf`](pe/8.pdf) |
+| pe8 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`pe/8.pdf`](pe/8.pdf) |
 
-| pr9 | Wang, C. et al. — [LLMDFA: Analyzing Dataflow in Code with Large Language Models](https://papers.nips.cc/paper_files/paper/2024/hash/...) | NeurIPS | 2024 | — |
+| pe9 | Wang, C. et al. — [LLMDFA: Analyzing Dataflow in Code with Large Language Models](https://papers.nips.cc/paper_files/paper/2024/hash/...) | NeurIPS | 2024 | — |
 
-| pr10 | — [VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection](https://arxiv.org/abs/2512.07533) | arXiv | 2025 | — |
+| pe10 | — [VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection](https://arxiv.org/abs/2512.07533) | arXiv | 2025 | — |
 
-| pr11 | — [PromptAudit: Auditing Prompt Sensitivity in LLM-Based Vulnerability Detection](https://arxiv.org/abs/2605.24171) | arXiv | 2025 | — |
+| pe11 | — [PromptAudit: Auditing Prompt Sensitivity in LLM-Based Vulnerability Detection](https://arxiv.org/abs/2605.24171) | arXiv | 2025 | — |
 
-| pr12 | — [Antaeus: Hunting Repository-Level Logic Vulns via Context-Grounded LLM Reasoning](https://arxiv.org/abs/2607.01138) | arXiv | 2026 | — |
+| pe12 | — [Antaeus: Hunting Repository-Level Logic Vulns via Context-Grounded LLM Reasoning](https://arxiv.org/abs/2607.01138) | arXiv | 2026 | — |
 
-| pr13 | — [Three Heads Are Better Than One: Multi-perspective Reasoning for Enhanced Vuln Detection](https://arxiv.org/abs/2605.18153) | arXiv | 2025 | — |
+| pe13 | — [Three Heads Are Better Than One: Multi-perspective Reasoning for Enhanced Vuln Detection](https://arxiv.org/abs/2605.18153) | arXiv | 2025 | — |
 
-| pr14 | — [R2Vul: Learning to Reason about Vulns with RL and Structured Reasoning Distillation](https://arxiv.org/abs/2504.04699) | arXiv | 2025 | — |
+| pe14 | — [R2Vul: Learning to Reason about Vulns with RL and Structured Reasoning Distillation](https://arxiv.org/abs/2504.04699) | arXiv | 2025 | — |
 
-| pr15 | — [Chain-of-Thought Prompting of LLMs for Discovering and Fixing Software Vulns](https://arxiv.org/abs/2402.17230) | arXiv | 2024 | — |
+| pe15 | — [Chain-of-Thought Prompting of LLMs for Discovering and Fixing Software Vulns](https://arxiv.org/abs/2402.17230) | arXiv | 2024 | — |
 
-| pr16 | — [Multi-role Consensus through LLMs Discussions for Vulnerability Detection](https://arxiv.org/abs/2403.14274) | arXiv | 2024 | — |
+| pe16 | — [Multi-role Consensus through LLMs Discussions for Vulnerability Detection](https://arxiv.org/abs/2403.14274) | arXiv | 2024 | — |
 
-| pr17 | — [VULPO: Context-Aware Vulnerability Detection via on-Policy LLM Optimization](https://arxiv.org/abs/2511.11896) | arXiv | 2025 | — |
+| pe17 | — [VULPO: Context-Aware Vulnerability Detection via on-Policy LLM Optimization](https://arxiv.org/abs/2511.11896) | arXiv | 2025 | — |
 
-| pr18 | — [Specification-Guided Vulnerability Detection with Large Language Models](https://arxiv.org/abs/2511.04014) | arXiv | 2025 | — |
+| pe18 | — [Specification-Guided Vulnerability Detection with Large Language Models](https://arxiv.org/abs/2511.04014) | arXiv | 2025 | — |
 
-| pr19 | — [One-for-All Does Not Work! Enhancing Vuln Detection by Mixture-of-Experts](https://arxiv.org/abs/2501.16454) | arXiv | 2025 | — |
+| pe19 | — [One-for-All Does Not Work! Enhancing Vuln Detection by Mixture-of-Experts](https://arxiv.org/abs/2501.16454) | arXiv | 2025 | — |
 
-| pr20 | — [VulTriage: Triple-Path Context Augmentation for LLM-Based Vuln Detection](https://arxiv.org/abs/2605.09461) | arXiv | 2026 | — |
+| pe20 | — [VulTriage: Triple-Path Context Augmentation for LLM-Based Vuln Detection](https://arxiv.org/abs/2605.09461) | arXiv | 2026 | — |
 
-| pr21 | — [QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery](https://arxiv.org/abs/2602.09774) | arXiv | 2026 | — |
+| pe21 | — [QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery](https://arxiv.org/abs/2602.09774) | arXiv | 2026 | — |
 
-| pr22 | — [Everything you wanted to know about LLM-based vuln detection but were afraid to ask](https://arxiv.org/abs/2504.13474) | arXiv | 2025 | — |
-
-
+| pe23 | Liu, Z. et al. — [Software Vulnerability Detection with GPT and In-Context Learning](https://ieeexplore.ieee.org/document/10381286) | DSC | 2023 | [`rag/1.txt`](rag/1.txt) |
+| pe24 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`rag/2.pdf`](rag/2.pdf) |
+| pe25 | Du, X. et al. — [Vul-RAG: Enhancing LLM-Based Vulnerability Detection via Knowledge-Level RAG](https://arxiv.org/abs/2406.11147) | CoRR | 2024 | [`rag/3.pdf`](rag/3.pdf) |
+| pe26 | Wen, X. et al. — [VulEval: Towards Repository-Level Evaluation of Software Vulnerability Detection](https://arxiv.org/abs/2404.15596) | CoRR | 2024 | [`rag/4.pdf`](rag/4.pdf) |
+| pe27 | Lekssays, A. et al. — [LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided LLMs](https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays) | USENIX Security | 2025 | [`pe/llmxcpg.pdf`](pe/llmxcpg.pdf) |
+| pe22 | — [Everything you wanted to know about LLM-based vuln detection but were afraid to ask](https://arxiv.org/abs/2504.13474) | arXiv | 2025 | — |
 
 ---
 
-
-
 ## 2. Agent-based Systems (agent)
-
-
 
 | # | Paper | Venue | Year | File |
 
@@ -143,12 +137,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 | ag29 | — [Ensembling Large Language Models for Code Vulnerability Detection](https://arxiv.org/abs/2509.12629) | arXiv | 2025 | — |
 
-
-
 ---
-
-
-
 
 ### 📊 Data-Centric Innovations
 
@@ -215,20 +204,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-
-## 3. RAG & Knowledge-Augmented (rag)
-
-| # | Paper | Venue | Year | File |
-|---|-------|-------|------|------|
-| rag1 | Liu, Z. et al. — [Software Vulnerability Detection with GPT and In-Context Learning](https://ieeexplore.ieee.org/document/10381286) | DSC | 2023 | [`rag/1.txt`](rag/1.txt) |
-| rag2 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`rag/2.pdf`](rag/2.pdf) |
-| rag3 | Du, X. et al. — [Vul-RAG: Enhancing LLM-Based Vulnerability Detection via Knowledge-Level RAG](https://arxiv.org/abs/2406.11147) | CoRR | 2024 | [`rag/3.pdf`](rag/3.pdf) |
-| rag4 | Wen, X. et al. — [VulEval: Towards Repository-Level Evaluation of Software Vulnerability Detection](https://arxiv.org/abs/2404.15596) | CoRR | 2024 | [`rag/4.pdf`](rag/4.pdf) |
-| rag5 | Lekssays, A. et al. — [LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models](https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays) | USENIX Security | 2025 | [`pe/llmxcpg.pdf`](pe/llmxcpg.pdf) |
-
----
-
-## 4. Evaluation & Benchmarks (ev)
+## 3. Evaluation & Benchmarks (ev)
 
 | # | Paper | Year | File |
 |---|-------|------|------|
@@ -240,7 +216,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 5. Code Generation (gen)
+## 4. Code Generation (gen)
 
 | # | Paper | Year |
 |---|-------|------|
@@ -249,7 +225,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 6. Code Understanding (understand)
+## 5. Code Understanding (understand)
 
 | # | Paper | Year |
 |---|-------|------|
@@ -259,7 +235,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 7. Surveys & Overviews (study)
+## 6. Surveys & Overviews (study)
 
 | # | Paper | Year | File |
 |---|-------|------|------|
@@ -271,7 +247,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 8. Others
+## 7. Others
 
 | # | Paper | Year |
 |---|-------|------|
@@ -287,7 +263,7 @@ papers/
 ├── .gitignore
 ├── pe/                # Prompt Engineering papers
 ├── ft/                # Fine-Tuning papers
-├── rag/               # RAG papers
+├── rag/               # RAG papers (refs from PE section)
 ├── ev/                # Evaluation papers
 ├── study/             # Survey / overview
 ├── gen/               # Code generation
