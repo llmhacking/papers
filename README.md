@@ -133,8 +133,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 | # | Paper | Year |
 |---|-------|------|
-| o1 | LLM-Assisted Static Analysis for Detecting Security Vulnerabilities | — |
-| o2 | [How Well Do Large Language Models Serve as End-to-End Secure Code Producers?](https://arxiv.org/pdf/2408.10495) | 2024 |
+| o1 | [How Well Do Large Language Models Serve as End-to-End Secure Code Producers?](https://arxiv.org/pdf/2408.10495) | 2024 |
 
 ---
 
@@ -166,15 +165,15 @@ A curated collection of academic papers on using Large Language Models for softw
 | [3] | Wang, C. et al. — [LLMDFA: Analyzing Dataflow in Code with Large Language Models](https://papers.nips.cc/paper_files/paper/2024/hash/...) | NeurIPS | 2024 | Full pipeline (keypoint + dataflow + reachability) | [`pe/9`](pe/9) (noted as pe/9) |
 | [4] | Liu, P. et al. — [LATTE: LLM-Powered Static Binary Taint Analysis](https://arxiv.org/abs/2310.08275) | TOSEM | 2025 | Binary taint analysis, keypoint + dataflow | [`pe/latte.pdf`](pe/latte.pdf) |
 | [5] | Li, Y. et al. — [AutoBug: Large Language Model Powered Symbolic Execution](https://arxiv.org/abs/2505.13452) | OOPSLA | 2025 | Reachability analysis | [`pe/autobug.pdf`](pe/autobug.pdf) |
-| [6] | — [LLIFT: Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach](https://dl.acm.org/doi/10.1145/3649828) | OOPSLA | 2024 | Keypoint + dataflow analysis | [`pe/llift.pdf`](pe/llift.pdf) |
+| [6] | Li, H. et al. — [LLIFT: Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach](https://dl.acm.org/doi/10.1145/3649828) | OOPSLA | 2024 | Keypoint + dataflow analysis | [`pe/llift.pdf`](pe/llift.pdf) |
 | [7] | Lin, H. et al. — [ACTaint: Agent-Based Taint Analysis for Access Control Vulnerabilities in Smart Contracts](https://doi.org/10.1109/ase63991.2025.00210) | ASE | 2025 | Agent-based taint analysis for smart contract AC vulns | [`pe/actaint.txt`](pe/actaint.txt) (IEEE paywall) |
 | [8] | — **Hyperion** (ICSE 2025) | ICSE | 2025 | Vulnerability detection | — ❌ not found |
 | [9] | — **GPTAid** (NDSS 2025) | NDSS | 2025 | GPT-assisted detection | — ❌ not found |
 | [10] | Lekssays, A. et al. — [LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models](https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays) | USENIX Security | 2025 | Code property graph + LLM | [`pe/llmxcpg.pdf`](pe/llmxcpg.pdf) |
 
 **Notes:**
-- [6] LLIFT is OOPSLA 2024 (not 2025), but included for completeness.
-- [7]–[9] (ACTaint, Hyperion, GPTAid) were not found on arxiv, DBLP, or Semantic Scholar — may require manual access via conference proceedings.
+- LLIFT is OOPSLA 2024 (not 2025), included for completeness.
+- ACTaint is behind IEEE paywall; Hyperion and GPTAid not yet found.
 
 ---
 
