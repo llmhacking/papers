@@ -20,51 +20,28 @@ A curated collection of academic papers on using Large Language Models for softw
 ## 1. Prompt Engineering & Knowledge-Augmented (pe)
 
 | # | Paper | Venue | Year | File |
-
 |---|-------|-------|------|------|
-
 | pe1 | Fu, M. et al. — ChatGPT for Vulnerability Detection, Classification, and Repair: How Far Are We? | APSEC | 2023 | [`pe/1.pdf`](pe/1.pdf) |
-
 | pe2 | Khare, A. et al. — [Understanding the Effectiveness of LLMs in Detecting Security Vulnerabilities](https://arxiv.org/abs/2311.16169) | arXiv | 2023 | [`pe/2.pdf`](pe/2.pdf) |
-
 | pe3 | Ni, C. et al. — [Learning-based Models for Vulnerability Detection: An Extensive Study](https://arxiv.org/abs/2408.07526) | arXiv | 2024 | [`pe/3.pdf`](pe/3.pdf) |
-
 | pe4 | Purba, M. D. et al. — [Software Vulnerability Detection Using Large Language Models](https://ieeexplore.ieee.org/document/10301302) | ISSRE Workshops | 2023 | [`pe/4.txt`](pe/4.txt) |
-
 | pe5 | Yin, X. — [Pros and Cons! Evaluating ChatGPT on Software Vulnerability](https://arxiv.org/abs/2404.03994) | CoRR | 2024 | [`pe/5.pdf`](pe/5.pdf) |
-
 | pe6 | Zhang, C. et al. — [Prompt-Enhanced Software Vulnerability Detection Using ChatGPT](https://arxiv.org/abs/2308.12697) | arXiv | 2023 | [`pe/6.pdf`](pe/6.pdf) |
-
 | pe7 | Zhou, X. et al. — [Comparison of SAST Tools and LLMs for Repo-Level Vulnerability Detection](https://arxiv.org/abs/2407.16235) | arXiv | 2024 | [`pe/7.pdf`](pe/7.pdf) |
-
 | pe8 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`pe/8.pdf`](pe/8.pdf) |
-
 | pe9 | Wang, C. et al. — [LLMDFA: Analyzing Dataflow in Code with Large Language Models](https://papers.nips.cc/paper_files/paper/2024/hash/...) | NeurIPS | 2024 | — |
-
 | pe10 | — [VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection](https://arxiv.org/abs/2512.07533) | arXiv | 2025 | — |
-
 | pe11 | — [PromptAudit: Auditing Prompt Sensitivity in LLM-Based Vulnerability Detection](https://arxiv.org/abs/2605.24171) | arXiv | 2025 | — |
-
 | pe12 | — [Antaeus: Hunting Repository-Level Logic Vulns via Context-Grounded LLM Reasoning](https://arxiv.org/abs/2607.01138) | arXiv | 2026 | — |
-
 | pe13 | — [Three Heads Are Better Than One: Multi-perspective Reasoning for Enhanced Vuln Detection](https://arxiv.org/abs/2605.18153) | arXiv | 2025 | — |
-
 | pe14 | — [R2Vul: Learning to Reason about Vulns with RL and Structured Reasoning Distillation](https://arxiv.org/abs/2504.04699) | arXiv | 2025 | — |
-
 | pe15 | — [Chain-of-Thought Prompting of LLMs for Discovering and Fixing Software Vulns](https://arxiv.org/abs/2402.17230) | arXiv | 2024 | — |
-
 | pe16 | — [Multi-role Consensus through LLMs Discussions for Vulnerability Detection](https://arxiv.org/abs/2403.14274) | arXiv | 2024 | — |
-
 | pe17 | — [VULPO: Context-Aware Vulnerability Detection via on-Policy LLM Optimization](https://arxiv.org/abs/2511.11896) | arXiv | 2025 | — |
-
 | pe18 | — [Specification-Guided Vulnerability Detection with Large Language Models](https://arxiv.org/abs/2511.04014) | arXiv | 2025 | — |
-
 | pe19 | — [One-for-All Does Not Work! Enhancing Vuln Detection by Mixture-of-Experts](https://arxiv.org/abs/2501.16454) | arXiv | 2025 | — |
-
 | pe20 | — [VulTriage: Triple-Path Context Augmentation for LLM-Based Vuln Detection](https://arxiv.org/abs/2605.09461) | arXiv | 2026 | — |
-
 | pe21 | — [QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery](https://arxiv.org/abs/2602.09774) | arXiv | 2026 | — |
-
 | pe23 | Liu, Z. et al. — [Software Vulnerability Detection with GPT and In-Context Learning](https://ieeexplore.ieee.org/document/10381286) | DSC | 2023 | [`rag/1.txt`](rag/1.txt) |
 | pe24 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`rag/2.pdf`](rag/2.pdf) |
 | pe25 | Du, X. et al. — [Vul-RAG: Enhancing LLM-Based Vulnerability Detection via Knowledge-Level RAG](https://arxiv.org/abs/2406.11147) | CoRR | 2024 | [`rag/3.pdf`](rag/3.pdf) |
@@ -77,65 +54,35 @@ A curated collection of academic papers on using Large Language Models for softw
 ## 2. Agent-based Systems (agent)
 
 | # | Paper | Venue | Year | File |
-
 |---|-------|-------|------|------|
-
 | ag1 | Li, Z. et al. — [IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238) | ICLR | 2025 | [`pe/iris.pdf`](pe/iris.pdf) |
-
 | ag2 | Guo, J. et al. — [RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing](https://arxiv.org/abs/2501.18160) | ICML | 2025 | [`pe/repoaudit.pdf`](pe/repoaudit.pdf) |
-
 | ag3 | Liu, P. et al. — [LATTE: LLM-Powered Static Binary Taint Analysis](https://arxiv.org/abs/2310.08275) | TOSEM | 2025 | [`pe/latte.pdf`](pe/latte.pdf) |
-
 | ag4 | Li, Y. et al. — [AutoBug: Large Language Model Powered Symbolic Execution](https://arxiv.org/abs/2505.13452) | OOPSLA | 2025 | [`pe/autobug.pdf`](pe/autobug.pdf) |
-
 | ag5 | Li, H. et al. — [LLIFT: Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach](https://dl.acm.org/doi/10.1145/3649828) | OOPSLA | 2024 | [`pe/llift.pdf`](pe/llift.pdf) |
-
 | ag6 | Lin, H. et al. — [ACTaint: Agent-Based Taint Analysis for Access Control Vulns in Smart Contracts](https://doi.org/10.1109/ase63991.2025.00210) | ASE | 2025 | [`pe/actaint.txt`](pe/actaint.txt) |
-
 | ag7 | — **Hyperion** (ICSE 2025) | ICSE | 2025 | — ❌ |
-
 | ag8 | — **GPTAid** (NDSS 2025) | NDSS | 2025 | — ❌ |
-
 | ag9 | Wang, Z. et al. — [Revelio: Cost-Efficient Agentic Memory Safety Vuln Detection for Repo-Scale Codebases](https://arxiv.org/abs/2606.22263) | arXiv | 2026 | — |
-
 | ag10 | — [Code-Augur: Agentic Vulnerability Detection via Specification Inference](https://arxiv.org/abs/2606.18619) | arXiv | 2026 | — |
-
 | ag11 | — [Security in a Workflow: Exploring Role-Based Agentic Architectures for Vuln Handling](https://arxiv.org/abs/2606.14261) | arXiv | 2026 | — |
-
 | ag12 | — [FuzzingBrain V2: A Multi-Agent LLM System for Automated Vuln Discovery and Reproduction](https://arxiv.org/abs/2605.21779) | arXiv | 2025 | — |
-
 | ag13 | — [MulVul: Retrieval-augmented Multi-Agent Code Vuln Detection via Cross-Model Prompt Evolution](https://arxiv.org/abs/2601.18847) | arXiv | 2026 | — |
-
 | ag14 | — [AgenticSCR: An Autonomous Agentic Secure Code Review for Immature Vulns Detection](https://arxiv.org/abs/2601.19138) | arXiv | 2026 | — |
-
 | ag15 | — [Synthesizing Multi-Agent Harnesses for Vulnerability Discovery](https://arxiv.org/abs/2604.20801) | arXiv | 2026 | — |
-
 | ag16 | — [Veritas: A Semantically Grounded Agentic Framework for Memory Corruption Vuln Detection in Binaries](https://arxiv.org/abs/2605.15097) | arXiv | 2025 | — |
-
 | ag17 | — [Sifting the Noise: LLM Agents in Vulnerability False Positive Filtering](https://arxiv.org/abs/2601.22952) | arXiv | 2026 | — |
-
 | ag18 | — [Combining Fine-Tuning and LLM-based Agents for Smart Contract Auditing](https://arxiv.org/abs/2403.16073) | ICSE | 2025 | — |
-
 | ag19 | — [SAEL: Adaptive Mixture-of-Experts for Smart Contract Vulnerability Detection](https://arxiv.org/abs/2507.22371) | arXiv | 2025 | — |
-
 | ag20 | — [MOS: MoE Tuning of LLMs for Smart Contract Vulnerability Detection](https://arxiv.org/abs/2504.12234) | arXiv | 2025 | — |
-
 | ag21 | 🎯 — [QLPro: Automated Code Vulnerability Discovery via LLM and Static Code Analysis](https://arxiv.org/abs/2506.23644) | arXiv | 2025 | 🎯 TODO |
-
 | ag22 | 🎯 — [CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability](https://arxiv.org/abs/2602.03012) | arXiv | 2026 | 🎯 TODO |
-
 | ag23 | 🎯 — [CQLLM: LLM-Driven CodeQL Security Vuln Detection Code Auto-Generation](https://preprints.org) | Preprints | 2025 | 🎯 TODO |
-
 | ag24 | 🎯 — [Vulnhalla: CodeQL + LLM Post-Processing for Vuln Detection](https://www.cyberark.com) | CyberArk | 2025 | 🎯 TODO |
-
 | ag25 | 🎯 — [OpenAI Aardvark: Agentic Security Researcher](https://openai.com/index/aardvark/) | OpenAI | 2025 | 🎯 TODO |
-
 | ag26 | 🎯 — [D-CIPHER: Dynamic Collaborative Multi-Agent System for Offensive Security](https://arxiv.org/abs/2502.10931) | arXiv | 2025 | 🎯 TODO |
-
 | ag27 | 🎯 — [Decoupling Recon and Exploitation: LLM-Based Web Penetration Testing](https://arxiv.org/abs/2606.25332) | arXiv | 2026 | 🎯 TODO |
-
 | ag28 | 🎯 — [SIVA: Self-Improving Vulnerability Agent — Research Direction](https://openreview.net) | OpenReview | 2025 | 🎯 TODO 🔄 Self-Improving |
-
 | ag29 | — [Ensembling Large Language Models for Code Vulnerability Detection](https://arxiv.org/abs/2509.12629) | arXiv | 2025 | — |
 
 ---
