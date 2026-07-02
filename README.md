@@ -159,8 +159,6 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ## 8. LLM-Enhanced Static Analysis (2025)
 
-Papers from the survey "大模型赋能静态漏洞挖掘研究进展" on LLM-empowered static vulnerability detection.
-
 | # | Paper | Venue | Year | Key Focus | File |
 |---|-------|-------|------|----------|------|
 | [1] | Li, Z. et al. — [IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238) | ICLR | 2025 | Keypoint recognition (source/sink) | [`pe/iris.pdf`](pe/iris.pdf) |
