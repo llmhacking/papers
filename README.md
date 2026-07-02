@@ -9,10 +9,11 @@ A curated collection of academic papers on using Large Language Models for softw
 | [1](#1-prompt-engineering--knowledge-augmented-pe) | Prompt Engineering & Knowledge-Augmented | 27 | Prompting, CoT, RAG, CPG-guided reasoning |
 | [2](#2-agent-based-systems-agent) | Agent-based Systems | 29 | Autonomous agents, multi-agent, self-improving agents |
 | [3](#3-fine-tuning-ft) | Fine-Tuning | 33 | Supervised fine-tuning on vulnerable code |
-| [4](#4-evaluation--benchmarks-ev) | Evaluation | Evaluation & Benchmarks | 5 | Benchmarks | 10 | Benchmarking & evaluation frameworks |
+| [4](#4-evaluation--benchmarks-ev) | Evaluation & Benchmarks | 10 | Benchmarking & evaluation frameworks |
 | [5](#5-code-generation-gen) | Code Generation | 2 | Secure code generation |
 | [6](#6-code-understanding-understand) | Code Understanding | 3 | Code comprehension with LLMs |
 | [7](#7-surveys--overviews-study) | Surveys & Overviews | 5 | Survey & overview |
+| [8](#8-others) | Others | 1 | Misc approaches |
 
 ---
 
@@ -139,6 +140,8 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
+## 3. Fine-Tuning (ft)
+
 ### 📊 Data-Centric Innovations
 
 | # | Paper | Venue | Year | File |
@@ -204,7 +207,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 3. Evaluation & Benchmarks (ev)
+## 4. Evaluation & Benchmarks (ev)
 
 | # | Paper | Year | File |
 |---|-------|------|------|
@@ -221,7 +224,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 4. Code Generation (gen)
+## 5. Code Generation (gen)
 
 | # | Paper | Year |
 |---|-------|------|
@@ -230,7 +233,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 5. Code Understanding (understand)
+## 6. Code Understanding (understand)
 
 | # | Paper | Year |
 |---|-------|------|
@@ -240,7 +243,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 6. Surveys & Overviews (study)
+## 7. Surveys & Overviews (study)
 
 | # | Paper | Year | File |
 |---|-------|------|------|
@@ -252,7 +255,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 7. Others
+## 8. Others
 
 | # | Paper | Year |
 |---|-------|------|
