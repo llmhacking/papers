@@ -60,6 +60,9 @@ A curated collection of academic papers on using Large Language Models for softw
 | pe37 | 🎯 — [CQLLM: LLM-Driven CodeQL Security Vulnerability Detection Code Auto-Generation](https://preprints.org) | Preprints | 2025 | 📌 TODO |
 | pe38 | 🎯 — [Vulnhalla: CodeQL + LLM Post-Processing for Vuln Detection](https://www.cyberark.com) | CyberArk | 2025 | 📌 TODO |
 | pe39 | 🎯 — [OpenAI Aardvark: Agentic Security Researcher](https://openai.com/index/aardvark/) | OpenAI | 2025 | 📌 TODO |
+| pe40 | 🎯 — [D-CIPHER: Dynamic Collaborative Multi-Agent System for Offensive Security](https://arxiv.org/abs/2502.10931) | arXiv | 2025 | 📌 TODO 🔴 Multi-Agent Pentesting |
+| pe41 | 🎯 — [Decoupling Reconnaissance and Exploitation: LLM-Based Web Penetration Testing](https://arxiv.org/abs/2606.25332) | arXiv | 2026 | 📌 TODO 🔴 Multi-Agent Pentesting |
+| pe42 | 🎯 — [SIVA: Self-Improving Vulnerability Agent — Research Direction](https://openreview.net) | OpenReview | 2025 | 📌 TODO 🔵 Self-Improving Agent |
 
 ### 📊 Data-Centric Innovations
 
