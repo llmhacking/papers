@@ -14,6 +14,7 @@ A curated collection of academic papers on using Large Language Models for softw
 | [5](#5-others) | Others | 2 | Misc approaches |
 | [6](#llm-for-code-generation) | Code Generation | 2 | Secure code generation |
 | [7](#llm-for-code-understanding) | Code Understanding | 3 | Code comprehension with LLMs |
+| [8](#8-llm-enhanced-static-analysis-2025) | LLM-Enhanced Static Analysis | 10 | LLM-empowered static vuln detection (2025 survey) |
 
 ---
 
