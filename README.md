@@ -6,27 +6,19 @@ A curated collection of academic papers on using Large Language Models for softw
 
 | # | Category | Count | Key Focus |
 |---|----------|-------|-----------|
-| [0](#0-study) | Study | 1 | Survey & overview |
-| [1](#1-prompt-engineering-pe) | Prompt Engineering | 9 | Zero/few-shot prompting for vuln detection |
+| [1](#1-prompt-engineering--agent-based-pe) | Prompt Engineering & Agent-based | 17 | Prompting and LLM agents for vuln detection |
 | [2](#2-fine-tuning-ft) | Fine-Tuning | 33 | Supervised fine-tuning on vulnerable code |
-| [3](#3-retrieval-augmented-generation-rag) | RAG | 4 | Retrieval-augmented vuln detection |
-| [4](#4-evaluation) | Evaluation | 2 | Benchmarking & evaluation frameworks |
-| [5](#5-llm-for-code-generation) | Code Generation | 2 | Secure code generation |
-| [6](#6-llm-for-code-understanding) | Code Understanding | 3 | Code comprehension with LLMs |
-| [7](#7-llm-enhanced-static-analysis-2025) | LLM-Enhanced Static Analysis | 10 | LLM-empowered static vuln detection (2025 survey) |
+| [3](#3-rag--knowledge-augmented-rag) | RAG & Knowledge-Augmented | 5 | Retrieval-augmented & CPG-guided vuln detection |
+| [4](#4-evaluation--benchmarks-ev) | Evaluation & Benchmarks | 2 | Benchmarking & evaluation frameworks |
+| [5](#5-code-generation-gen) | Code Generation | 2 | Secure code generation |
+| [6](#6-code-understanding-understand) | Code Understanding | 3 | Code comprehension with LLMs |
+| [7](#7-surveys--overviews-study) | Surveys & Overviews | 1 | Survey & overview |
 | [8](#8-others) | Others | 1 | Misc approaches |
 
 ---
 
-## 0. Study
 
-| # | Paper | Year | File |
-|---|-------|------|------|
-| 1 | [What Are We Doing With All This AI?](https://arxiv.org/pdf/2404.02525) | 2024 | — |
-
----
-
-## 1. Prompt Engineering (pe)
+## 1. Prompt Engineering & Agent-based (pe)
 
 | # | Paper | Venue | Year | File |
 |---|-------|-------|------|------|
@@ -39,6 +31,14 @@ A curated collection of academic papers on using Large Language Models for softw
 | pe7 | Zhou, X. et al. — [Comparison of Static Application Security Testing Tools and Large Language Models for Repo-Level Vulnerability Detection](https://arxiv.org/abs/2407.16235) | arXiv | 2024 | [`pe/7.pdf`](pe/7.pdf) |
 | pe8 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`pe/8.pdf`](pe/8.pdf) |
 | pe9 | Wang, C. et al. — [LLMDFA: Analyzing Dataflow in Code with Large Language Models](https://papers.nips.cc/paper_files/paper/2024/hash/...) | NeurIPS | 2024 | — |
+| pe10 | Li, Z. et al. — [IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238) | ICLR | 2025 | [`pe/iris.pdf`](pe/iris.pdf) |
+| pe11 | Guo, J. et al. — [RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing](https://arxiv.org/abs/2501.18160) | ICML | 2025 | [`pe/repoaudit.pdf`](pe/repoaudit.pdf) |
+| pe12 | Liu, P. et al. — [LATTE: LLM-Powered Static Binary Taint Analysis](https://arxiv.org/abs/2310.08275) | TOSEM | 2025 | [`pe/latte.pdf`](pe/latte.pdf) |
+| pe13 | Li, Y. et al. — [AutoBug: Large Language Model Powered Symbolic Execution](https://arxiv.org/abs/2505.13452) | OOPSLA | 2025 | [`pe/autobug.pdf`](pe/autobug.pdf) |
+| pe14 | Li, H. et al. — [LLIFT: Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach](https://dl.acm.org/doi/10.1145/3649828) | OOPSLA | 2024 | [`pe/llift.pdf`](pe/llift.pdf) |
+| pe15 | Lin, H. et al. — [ACTaint: Agent-Based Taint Analysis for Access Control Vulnerabilities in Smart Contracts](https://doi.org/10.1109/ase63991.2025.00210) | ASE | 2025 | [`pe/actaint.txt`](pe/actaint.txt) |
+| pe16 | — **Hyperion** (ICSE 2025) | ICSE | 2025 | — ❌ |
+| pe17 | — **GPTAid** (NDSS 2025) | NDSS | 2025 | — ❌ |
 
 ---
 
@@ -109,7 +109,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 3. Retrieval-Augmented Generation (rag)
+## 3. RAG & Knowledge-Augmented (rag)
 
 | # | Paper | Venue | Year | File |
 |---|-------|-------|------|------|
@@ -117,10 +117,11 @@ A curated collection of academic papers on using Large Language Models for softw
 | rag2 | Zhou, X., Zhang, T., Lo, D. — Large Language Model for Vulnerability Detection: Emerging Results and Future Directions | ICSE NIER | 2024 | [`rag/2.pdf`](rag/2.pdf) |
 | rag3 | Du, X. et al. — [Vul-RAG: Enhancing LLM-Based Vulnerability Detection via Knowledge-Level RAG](https://arxiv.org/abs/2406.11147) | CoRR | 2024 | [`rag/3.pdf`](rag/3.pdf) |
 | rag4 | Wen, X. et al. — [VulEval: Towards Repository-Level Evaluation of Software Vulnerability Detection](https://arxiv.org/abs/2404.15596) | CoRR | 2024 | [`rag/4.pdf`](rag/4.pdf) |
+| rag5 | Lekssays, A. et al. — [LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models](https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays) | USENIX Security | 2025 | [`pe/llmxcpg.pdf`](pe/llmxcpg.pdf) |
 
 ---
 
-## 4. Evaluation
+## 4. Evaluation & Benchmarks (ev)
 
 | # | Paper | Year | File |
 |---|-------|------|------|
@@ -129,7 +130,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 5. LLM for Code Generation
+## 5. Code Generation (gen)
 
 | # | Paper | Year |
 |---|-------|------|
@@ -138,7 +139,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 6. LLM for Code Understanding
+## 6. Code Understanding (understand)
 
 | # | Paper | Year |
 |---|-------|------|
@@ -148,24 +149,11 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## 7. LLM-Enhanced Static Analysis (2025)
+## 7. Surveys & Overviews (study)
 
-| # | Paper | Venue | Year | Key Focus | File |
-|---|-------|-------|------|----------|------|
-| [1] | Li, Z. et al. — [IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238) | ICLR | 2025 | Keypoint recognition (source/sink) | [`pe/iris.pdf`](pe/iris.pdf) |
-| [2] | Guo, J. et al. — [RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing](https://arxiv.org/abs/2501.18160) | ICML | 2025 | Dataflow analysis, business logic | [`pe/repoaudit.pdf`](pe/repoaudit.pdf) |
-| [3] | Wang, C. et al. — [LLMDFA: Analyzing Dataflow in Code with Large Language Models](https://papers.nips.cc/paper_files/paper/2024/hash/...) | NeurIPS | 2024 | Full pipeline (keypoint + dataflow + reachability) | [`pe/9`](pe/9) (noted as pe/9) |
-| [4] | Liu, P. et al. — [LATTE: LLM-Powered Static Binary Taint Analysis](https://arxiv.org/abs/2310.08275) | TOSEM | 2025 | Binary taint analysis, keypoint + dataflow | [`pe/latte.pdf`](pe/latte.pdf) |
-| [5] | Li, Y. et al. — [AutoBug: Large Language Model Powered Symbolic Execution](https://arxiv.org/abs/2505.13452) | OOPSLA | 2025 | Reachability analysis | [`pe/autobug.pdf`](pe/autobug.pdf) |
-| [6] | Li, H. et al. — [LLIFT: Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach](https://dl.acm.org/doi/10.1145/3649828) | OOPSLA | 2024 | Keypoint + dataflow analysis | [`pe/llift.pdf`](pe/llift.pdf) |
-| [7] | Lin, H. et al. — [ACTaint: Agent-Based Taint Analysis for Access Control Vulnerabilities in Smart Contracts](https://doi.org/10.1109/ase63991.2025.00210) | ASE | 2025 | Agent-based taint analysis for smart contract AC vulns | [`pe/actaint.txt`](pe/actaint.txt) (IEEE paywall) |
-| [8] | — **Hyperion** (ICSE 2025) | ICSE | 2025 | Vulnerability detection | — ❌ not found |
-| [9] | — **GPTAid** (NDSS 2025) | NDSS | 2025 | GPT-assisted detection | — ❌ not found |
-| [10] | Lekssays, A. et al. — [LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models](https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays) | USENIX Security | 2025 | Code property graph + LLM | [`pe/llmxcpg.pdf`](pe/llmxcpg.pdf) |
-
-**Notes:**
-- LLIFT is OOPSLA 2024 (not 2025), included for completeness.
-- ACTaint is behind IEEE paywall; Hyperion and GPTAid not yet found.
+| # | Paper | Year | File |
+|---|-------|------|------|
+| s1 | [What Are We Doing With All This AI?](https://arxiv.org/pdf/2404.02525) | 2024 | — |
 
 ---
 
