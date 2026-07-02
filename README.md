@@ -63,6 +63,18 @@ A curated collection of academic papers on using Large Language Models for softw
 | pe40 | 🎯 — [D-CIPHER: Dynamic Collaborative Multi-Agent System for Offensive Security](https://arxiv.org/abs/2502.10931) | arXiv | 2025 | 📌 TODO 🔴 Multi-Agent Pentesting |
 | pe41 | 🎯 — [Decoupling Reconnaissance and Exploitation: LLM-Based Web Penetration Testing](https://arxiv.org/abs/2606.25332) | arXiv | 2026 | 📌 TODO 🔴 Multi-Agent Pentesting |
 | pe42 | 🎯 — [SIVA: Self-Improving Vulnerability Agent — Research Direction](https://openreview.net) | OpenReview | 2025 | 📌 TODO 🔵 Self-Improving Agent |
+| pe43 | — [R2Vul: Learning to Reason about Software Vulnerabilities with RL and Structured Reasoning Distillation](https://arxiv.org/abs/2504.04699) | arXiv | 2025 | — |
+| pe44 | — [Multi-role Consensus through LLMs Discussions for Vulnerability Detection](https://arxiv.org/abs/2403.14274) | arXiv | 2024 | — |
+| pe45 | — [Chain-of-Thought Prompting of LLMs for Discovering and Fixing Software Vulnerabilities](https://arxiv.org/abs/2402.17230) | arXiv | 2024 | — |
+| pe46 | — [VULPO: Context-Aware Vulnerability Detection via on-Policy LLM Optimization](https://arxiv.org/abs/2511.11896) | arXiv | 2025 | — |
+| pe47 | — [Specification-Guided Vulnerability Detection with Large Language Models](https://arxiv.org/abs/2511.04014) | arXiv | 2025 | — |
+| pe48 | — [One-for-All Does Not Work! Enhancing Vulnerability Detection by Mixture-of-Experts (MoE)](https://arxiv.org/abs/2501.16454) | arXiv | 2025 | — |
+| pe49 | — [VulTriage: Triple-Path Context Augmentation for LLM-Based Vulnerability Detection](https://arxiv.org/abs/2605.09461) | arXiv | 2026 | — |
+| pe50 | — [QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery](https://arxiv.org/abs/2602.09774) | arXiv | 2026 | — |
+| pe51 | — [From Large to Mammoth: A Comparative Evaluation of LLMs in Vulnerability Detection](https://www.ndss-symposium.org/ndss-paper/from-large-to-mammoth-a-comparative-evaluation-of-large-language-models-in-vulnerability-detection/) | NDSS | 2025 | — |
+| pe52 | — [VulnGym: A Real-World, Project-Level Vulnerability Benchmark for White-Box Vulnerability-Hunting Agents](https://github.com/Tencent/VulnGym) | — | 2026 | — |
+| pe53 | — [CVE-Bench: Benchmarking LLM-based SE Agent's Ability to Repair Real-World CVEs](https://aclanthology.org/2025.naacl-long.212/) | NAACL | 2025 | — |
+| pe54 | — [Everything you wanted to know about LLM-based vulnerability detection but were afraid to ask](https://arxiv.org/abs/2504.13474) | arXiv | 2025 | — |
 
 ### 📊 Data-Centric Innovations
 
