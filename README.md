@@ -137,7 +137,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## LLM for Code Generation
+## 6. LLM for Code Generation
 
 | # | Paper | Year |
 |---|-------|------|
@@ -146,7 +146,7 @@ A curated collection of academic papers on using Large Language Models for softw
 
 ---
 
-## LLM for Code Understanding
+## 7. LLM for Code Understanding
 
 | # | Paper | Year |
 |---|-------|------|
